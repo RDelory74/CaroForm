@@ -1,0 +1,105 @@
+Prompt efficient
+
+Quand je lance mon serveur Nuxt sur l'url http://localhost:3000/ ça me met page 404 par contre si je rentre http://localhost:3000/home j'arrrive sur la page d'accueil regarde ci-dessous l'arborescence et dit moi si tu vois quelquechose qui pourrait provoquer ça et si tu as besoin de voir d'autres fichier demande moi 
+
+Mon App.vue
+<template>
+  <NuxtLayout>
+  <NuxtPage/>
+  </NuxtLayout>
+</template>
+
+
+Mon Default.vue
+<template>
+    <div class="flex flex-col min-h-screen">
+        <HeaderNavBar />
+        <main class="flex-grow min-h-screen">
+            <NuxtPage />
+        </main>
+        <FooterLibFooterMini />
+    </div>
+</template>
+
+Mon router/index.js
+
+import { createRouter, createWebHistory } from 'vue-router'
+import Home from '../pages/home.vue'
+import About from '../pages/about.vue'
+import Contact from '../pages/contact.vue'
+import Presta from '../pages/presta.vue'
+
+const router = createRouter({
+  history: createWebHistory(),
+  routes: [
+    { path: '/home', component: Home },
+    { path: '/about', component: About },
+    { path: '/presta', component: Presta },
+    { path: '/contact', component: Contact }
+  ]
+})
+
+export default router
+
+MonFooter LibFooterMini.vue
+<template>
+  <footer class="bg-[#6DA48F80] text-white px-6 py-10">
+    <div class="max-w-7xl mx-auto flex flex-col md:flex-row md:justify-between md:items-start gap-10">
+      <div class="flex flex-col md:flex-row gap-10 flex-1">
+        <div>
+          <h3 class="text-lg font-semibold mb-4">Caroline Caballe Delory</h3>
+          <ul class="space-y-2 text-sm text-white">
+            <li>Email : carolinecaballe@gmail.com</li>
+            <li>Téléphone : +33 6 17 28 13 85</li>
+            <li>Localité : Haute Savoie, Savoie, Genevois</li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="text-lg font-semibold mb-4">Infos</h3>
+          <ul class="space-y-2 text-sm text-white">
+            <li><a href="#" class="hover:underline">À propos</a></li>
+            <li><a href="#" class="hover:underline">Conditions générales</a></li>
+            <li><a href="#" class="hover:underline">Politique de confidentialité</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="text-lg font-semibold mb-4">Nos services</h3>
+          <ul class="space-y-2 text-sm text-white">
+            <li><a href="#" class="hover:underline">Livraison</a></li>
+            <li><a href="#" class="hover:underline">Retours</a></li>
+            <li><a href="#" class="hover:underline">Support client</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="flex justify-center md:justify-end md:w-48">
+        <img src="/logo-sharpped.png" alt="Logo" class="h-24 object-contain" />
+      </div>
+    </div>
+    <div class="border-t border-[#6DA48F] mt-10 pt-6 text-sm text-[#6DA48F] text-center">
+      © {{ new Date().getFullYear() }} LibNuxt. Tous droits réservés.
+    </div>
+
+  </footer>
+</template>
+
+exemple phone and mail auto
+
+<div class="header-cta-band-contact-mail flex items-center gap-2">
+  <Send color="#ff4444" :size="20" />
+  <a
+    href="mailto:carolinecaballe@gmail.com"
+    class="hover:underline text-white"
+  >
+    carolinecaballe@gmail.com
+  </a>
+</div>
+
+<div class="header-cta-band-contact-phone flex items-center gap-2">
+  <PhoneOutgoing color="#ff4444" :size="20" />
+  <a
+    href="tel:+33617281385"
+    class="hover:underline text-white"
+  >
+    +33 6 17 28 13 85
+  </a>
+</div>
