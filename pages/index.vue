@@ -4,18 +4,9 @@
         <HeroBanner />
 
         <!-- Contenu de la page -->
-        <h1 class="text-3xl py-5 text-center font-bold">
-            Bienvenue sur mon site Work in Progress
-        </h1>
-        <p class="text-center mb-5 py-5 px-5 md:px-40">Mon parcours s’est construit à la croisée des sciences humaines,
-            de la pédagogie, de
-            l’art et de la culture, guidé par une conviction : comprendre l’humain pour mieux accompagner les pratiques
-            professionnelles.
-            Ce cursus m’a apporté un cadre théorique et méthodologique solide et m’a permis de développer une approche
-            globale et sensible de la relation humaine, essentielle à mon accompagnement des professionnels de la petite
-            enfance. Il m’a également appris à relier le vécu individuel aux dimensions collectives et à observer les
-            dynamiques institutionnelles.
-        </p>
+        <HeroWelcomeSection image-src="/rando2.jpg" image-alt="Photo professionnelle" />
+        <AxesInterventionSection image-src="/rando2.jpg" image-alt="Accompagnement petite enfance" />
+
 
         <div class="py-5 md:py-10 space-y-10">
             <Card title=" Un engagement ancré dans la petite enfance"
@@ -30,8 +21,7 @@ J’ai maîtrisé la conduite de projets éducatifs et pédagogiques, articulant
 
 Mon parcours en multi-accueil et en relais petite enfance m’a permis de comprendre la diversité des contextes institutionnels.
 
-Aujourd’hui, je mets cette expérience au service des équipes, gestionnaires et étudiants pour accompagner leurs pratiques professionnelles." 
-            image="/RandoImg.png" />
+Aujourd’hui, je mets cette expérience au service des équipes, gestionnaires et étudiants pour accompagner leurs pratiques professionnelles." image="/RandoImg.png" />
         </div>
     </div>
 </template>
@@ -39,4 +29,6 @@ Aujourd’hui, je mets cette expérience au service des équipes, gestionnaires 
 <script setup>
 import HeroBanner from '~/components/banner/HeroBanner.vue'
 import Card from '~/components/cards/Card.vue'
+import AxesInterventionSection from '~/components/section/AxesInterventionSection.vue'
+import HeroWelcomeSection from '~/components/section/HeroWelcomeSection.vue'
 </script>
