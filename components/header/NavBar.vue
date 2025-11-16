@@ -1,6 +1,6 @@
 <template>
   <header class="bg-[#6DA48F80] text-white w-full relative">
-    <div class="flex justify-between items-center px-6 py-4 md:px-20">
+    <div class="flex justify-between items-center px-6 py-2 md:px-20">
       <!-- Logo -->
       <NuxtLink to="/" class="flex items-center gap-2">
         <img src="@/public/logo-sharpped.png" alt="Logo" class="h-20" />

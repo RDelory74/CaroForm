@@ -178,17 +178,21 @@
                 </div>
 
             </div>
-            <div class="text-center mt-2 p-4">
-      <ButtonBaseButtonTlwd label="Contactez-moi pour plus d'informations" to="/contact" variant="secondary" />
-    </div>
+         
         </section>
+        <PostureRechercheSection image-src="/rando1.png" image-alt="Recherche en petite enfance" /> 
+        <div class="text-center mt-2 p-4">
+                <ButtonBaseButtonTlwd label="Envie d'en parler ?" to="/contact"
+                    variant="secondary" />
+            </div>
     </div>
 
- 
+
 </template>
 
 
 <script setup>
 import ButtonBaseButtonTlwd from '@/components/button/BaseButtonTlwd.vue'
 import ImageBanner from '@/components/banner/ImageBanner.vue'
+import PostureRechercheSection from '@/components/section/PostureRechercheSection.vue'
 </script>
