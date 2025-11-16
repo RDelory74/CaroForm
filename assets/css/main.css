@@ -19,7 +19,7 @@ a:active {
 
 .nuxt-link,
 .nuxt-link-exact-active {
-    font-size: large;
+    font-size: medium;
     text-decoration: none;
 
 }

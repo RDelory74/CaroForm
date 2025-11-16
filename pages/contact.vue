@@ -1,8 +1,16 @@
 <template>
-<p class="text-center mb-5">Ici la page de contact</p>
 
-    <h1 class="text-3xl text-center font-bold ">
-      "Contactez-moi"
-    </h1>
- 
+
+  <h1 class="text-3xl py-5 text-center font-bold ">
+    Demande d'informations et contact
+  </h1>
+
+
+  <ContactFormAI />
+
+
 </template>
+
+<script setup>
+import ContactFormAI from '~/components/form/ContactFormAI.vue'
+</script>

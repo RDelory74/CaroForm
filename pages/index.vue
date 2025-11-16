@@ -30,9 +30,9 @@ J’ai maîtrisé la conduite de projets éducatifs et pédagogiques, articulant
 
 Mon parcours en multi-accueil et en relais petite enfance m’a permis de comprendre la diversité des contextes institutionnels.
 
-Aujourd’hui, je mets cette expérience au service des équipes, gestionnaires et étudiants pour accompagner leurs pratiques professionnelles." image="/RandoImg.png" />
+Aujourd’hui, je mets cette expérience au service des équipes, gestionnaires et étudiants pour accompagner leurs pratiques professionnelles." 
+            image="/RandoImg.png" />
         </div>
-
     </div>
 </template>
 
