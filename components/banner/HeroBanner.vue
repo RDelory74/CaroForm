@@ -1,5 +1,5 @@
 <template>
-  <section class="relative w-full h-screen overflow-hidden flex items-center justify-center">
+  <section class="relative w-full h-screen md:h-[50vh] overflow-hidden flex items-center justify-center">
     <!-- Image de fond -->
     <img
       src="/hero1.png"
@@ -9,20 +9,20 @@
     />
 
     <!-- Titre animé -->
-<h1
-  class="relative text-white text-5xl md:text-7xl font-bold transition-all duration-700 ease-out"
-  :class="{
-    'translate-x-0 opacity-100': showTitle && !scrolledDown,
-    'translate-x-full opacity-0': !showTitle && !scrolledDown,
-    '-translate-x-full opacity-0': scrolledDown
-  }"
->
-  Cultivons le sens de nos pratiques
-</h1>
+    <h1
+      class="relative text-white text-5xl md:text-7xl font-bold transition-all duration-700 ease-out px-4 text-center"
+      :class="{
+        'translate-x-0 opacity-100': showTitle && !scrolledDown,
+        'translate-x-full opacity-0': !showTitle && !scrolledDown,
+        '-translate-x-full opacity-0': scrolledDown
+      }"
+    >
+      Cultivons le sens de nos pratiques
+    </h1>
   </section>
 </template>
 
-<script setup>
+<script setup lang="ts">
 import { ref, onMounted, onUnmounted } from 'vue'
 
 const showImage = ref(false)
