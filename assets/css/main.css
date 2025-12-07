@@ -3,7 +3,8 @@
 @tailwind utilities;
 
 body {
-    font-family: 'Inter', sans-serif;
+    font-family: "Calibri Light", "Calibri", sans-serif;
+
     color: rgb(26, 24, 24);
 }
 

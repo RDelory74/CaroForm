@@ -2,7 +2,7 @@
   <section class="relative w-full h-screen md:h-[50vh] overflow-hidden flex items-center justify-center">
     <!-- Image de fond -->
     <img
-      src="/hero1.png"
+      src="/parent-guiding.jpg"
       alt="Hero Image"
       class="absolute inset-0 w-full h-full object-cover opacity-0 transition-opacity duration-500"
       :class="{'opacity-100': showImage}"
@@ -17,7 +17,7 @@
         '-translate-x-full opacity-0': scrolledDown
       }"
     >
-      Cultivons le sens de nos pratiques
+      Cultivons ensemble le <span class="text-[#223B81]"> sens </span> de nos pratiques
     </h1>
   </section>
 </template>

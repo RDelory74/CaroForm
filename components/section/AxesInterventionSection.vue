@@ -1,5 +1,5 @@
 <template>
-  <section class="py-16 md:py-24 overflow-hidden" style="background-color: #6DA48F80;">
+  <section class="py-16 md:py-24 overflow-hidden" style="background-color: #E0C734;">
     <div class="container mx-auto px-4 max-w-6xl">
 
       <!-- Title -->

@@ -50,7 +50,8 @@
               isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
             ]"
           >
-            Mon parcours s'est construit à la croisée des <span class="font-semibold text-gray-900">sciences humaines</span>, de la <span class="font-semibold text-gray-900">pédagogie</span>, de l'<span class="font-semibold text-gray-900">art et de la culture</span>, guidé par une conviction : <span class="font-bold text-[#6DA48F]">comprendre l'humain pour mieux accompagner les pratiques professionnelles</span>.
+          J’accompagne les équipes à donner du sens à leur travail, à saisir les enjeux contemporains de leur métier et à développer des pratiques éducatives de qualité
+            <!-- Mon parcours s'est construit à la croisée des <span class="font-semibold text-gray-900">sciences humaines</span>, de la <span class="font-semibold text-gray-900">pédagogie</span>, de l'<span class="font-semibold text-gray-900">art et de la culture</span>, guidé par une conviction : <span class="font-bold text-[#6DA48F]">comprendre l'humain pour mieux accompagner les pratiques professionnelles</span>.-->
           </p>
         </div>
 

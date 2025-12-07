@@ -4,11 +4,11 @@
         <HeroBanner />
 
         <!-- Contenu de la page -->
-        <HeroWelcomeSection image-src="/rando2.jpg" image-alt="Photo professionnelle" />
-        <AxesInterventionSection image-src="/rando2.jpg" image-alt="Accompagnement petite enfance" />
+        <HeroWelcomeSection image-src="/mainsenfant.jpg" image-alt="Photo professionnelle" />
+        <AxesInterventionSection image-src="/forma-op1.jpg" image-alt="Accompagnement petite enfance" /> <!-- REVOIR PHOTO GAUCHE TEXTE DROITE -->
 
 
-        <CardEngagement title="Un engagement ancré dans la petite enfance"
+        <CardEngagement title="Eveil Artistique et Culturel"
             text="Je me suis orientée vers le métier d’Éducatrice de Jeunes Enfants (EJE) pour mettre mes savoirs théoriques en pratique.
 
 Cette expérience m’a permis de développer une compréhension fine du développement de l’enfant dans toutes ses dimensions.
@@ -20,7 +20,7 @@ J’ai maîtrisé la conduite de projets éducatifs et pédagogiques, articulant
 
 Mon parcours en multi-accueil et en relais petite enfance m’a permis de comprendre la diversité des contextes institutionnels.
 
-Aujourd’hui, je mets cette expérience au service des équipes, gestionnaires et étudiants pour accompagner leurs pratiques professionnelles." image="/RandoImg.png" />
+Aujourd’hui, je mets cette expérience au service des équipes, gestionnaires et étudiants pour accompagner leurs pratiques professionnelles." image="/color1.jpg" />
     </div>
 </template>
 
