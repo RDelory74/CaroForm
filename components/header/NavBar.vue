@@ -67,7 +67,7 @@
 
           <!-- Logo -->
           <NuxtLink to="/" class="mb-4">
-            <img src="@/public/logo-sharpped.png" alt="Logo" class="h-16 mx-auto" />
+            <img src="@/public/logoCaro.png" alt="Logo" class="h-16 mx-auto rounded-full" />
           </NuxtLink>
 
           <!-- Nav buttons -->
