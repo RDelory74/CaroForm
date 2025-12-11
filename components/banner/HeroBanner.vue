@@ -17,7 +17,7 @@
         '-translate-x-full opacity-0': scrolledDown
       }"
     >
-      Cultivons ensemble le <span class="text-[#223B81]"> sens </span> de nos pratiques
+      Cultivons <span class="text-[#E0C734]">ensemble le</span> <span class="text-[#223B81]"> sens </span> de nos pratiques
     </h1>
   </section>
 </template>

@@ -5,8 +5,13 @@
 
         <!-- Contenu de la page -->
         <HeroWelcomeSection image-src="/mainsenfant.jpg" image-alt="Photo professionnelle" />
-        <AxesInterventionSection image-src="/forma-op1.jpg" image-alt="Accompagnement petite enfance" /> <!-- REVOIR PHOTO GAUCHE TEXTE DROITE -->
-
+        <!-- REVOIR PHOTO GAUCHE TEXTE DROITE -->
+        <!--  <AxesInterventionSection image-src="/forma-op1.jpg" image-alt="Accompagnement petite enfance" />-->
+        
+        <MesDomainesSolar 
+      central-image-src="/forma-op1.jpg"
+      central-image-alt="Mon approche par Domaines d'Intervention"
+    />
 
         <CardEngagement title="Eveil Artistique et Culturel"
             text="Je me suis orientée vers le métier d’Éducatrice de Jeunes Enfants (EJE) pour mettre mes savoirs théoriques en pratique.
@@ -29,4 +34,5 @@ import HeroBanner from '~/components/banner/HeroBanner.vue'
 import CardEngagement from '~/components/cards/CardEngagement.vue'
 import AxesInterventionSection from '~/components/section/AxesInterventionSection.vue'
 import HeroWelcomeSection from '~/components/section/HeroWelcomeSection.vue'
+import MesDomainesSolar from '~/components/section/MesDomainesSolar.vue'
 </script>
