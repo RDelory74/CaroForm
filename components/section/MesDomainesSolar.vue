@@ -47,7 +47,7 @@
               <img
                 :src="centralImageSrc"
                 :alt="centralImageAlt"
-                class="rounded-full shadow-2xl w-64 h-64 object-cover border-8 border-white"
+                class="rounded-full shadow-2xl w-80 h-80 object-cover border-8 border-white"
               />
               <div class="absolute inset-0 rounded-full bg-white/20 blur-xl -z-10"></div>
             </div>
@@ -60,9 +60,9 @@
               'absolute transition-all duration-1000 ease-out delay-500',
               visible.axe1 ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-20'
             ]"
-            style="top:20%; left:5%; transform:translateY(-50%); width:320px;"
+            style="top:20%; left:2%; transform:translateY(-50%); width:30%;height:20%"
           >
-            <AxeCard v-bind="axes[0]" :isVisible="true" />
+            <AxeCard v-bind="axes[0]" :isVisible="true" class="w-full h-full" />
           </div>
   
           <!-- AXE 2 -->
@@ -72,9 +72,9 @@
               'absolute transition-all duration-1000 ease-out delay-600',
               visible.axe2 ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-20'
             ]"
-            style="bottom:30%; left:15%; width:320px;"
+            style="bottom:35%; left:12%; width:30%;height:20%"
           >
-            <AxeCard v-bind="axes[1]" :isVisible="true" />
+            <AxeCard v-bind="axes[1]" :isVisible="true"  />
           </div>
   
           <!-- AXE 3 -->
@@ -84,9 +84,9 @@
               'absolute transition-all duration-1000 ease-out delay-700',
               visible.axe3 ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-20'
             ]"
-            style="bottom:5%; left:50%; transform:translateX(-50%); width:320px;"
+            style="bottom:5%; left:50%; transform:translateX(-50%); width:30%;height:20%"
           >
-            <AxeCard v-bind="axes[2]" :isVisible="true" />
+            <AxeCard v-bind="axes[2]" :isVisible="true"  />
           </div>
   
           <!-- AXE 4 -->
@@ -96,9 +96,9 @@
               'absolute transition-all duration-1000 ease-out delay-800',
               visible.axe4 ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-20'
             ]"
-            style="bottom:30%; right:15%; width:320px;"
+            style="bottom:35%; right:12%; width:30%;height:20%"
           >
-            <AxeCard v-bind="axes[3]" :isVisible="true" />
+            <AxeCard v-bind="axes[3]" :isVisible="true"  />
           </div>
   
           <!-- AXE 5 -->
@@ -108,9 +108,9 @@
               'absolute transition-all duration-1000 ease-out delay-900',
               visible.axe5 ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-20'
             ]"
-            style="top:20%; right:5%; transform:translateY(-50%); width:320px;"
+            style="top:20%; right:2%; transform:translateY(-50%); width:30%;height:20% ;"
           >
-            <AxeCard v-bind="axes[4]" :isVisible="true" />
+            <AxeCard v-bind="axes[4]" :isVisible="true"  />
           </div>
   
         </div>
@@ -140,17 +140,17 @@
   }
   
   withDefaults(defineProps<Props>(), {
-    centralImageSrc: '/intervention.jpg',
+    centralImageSrc: '/central-child.png',
     centralImageAlt: "Centre d'intervention",
   })
   
   /* AXES DATA */
   const axes = [
-    { title: "Formation sur mesure", description: "Des parcours adaptés...", imageSrc: "/color1.jpg" },
-    { title: "Analyse de la pratique professionnelle", description: "Des espaces de réflexion...", imageSrc: "/color2.jpg" },
-    { title: "Accompagnement consultatif", description: "Un soutien personnalisé...", imageSrc: "/color3.jpg" },
-    { title: "Éveil artistique et culturel", description: "Des projets pour la créativité...", imageSrc: "/color4.jpg" },
-    { title: "Référentiel Petite Enfance", description: "Accompagnement dans le cadre national...", imageSrc: "/chemin.png" }
+    { title: "Formation sur mesure", description: "Des parcours adaptés...", imageSrc: "/analyse-practice.png" },
+    { title: "Analyse de la pratique professionnelle", description: "Des espaces de réflexion...", imageSrc: "/analyse-practice-team.png" },
+    { title: "Accompagnement consultatif", description: "Un soutien personnalisé...", imageSrc: "/team-working.png" },
+    { title: "Éveil artistique et culturel", description: "Des projets pour la créativité...", imageSrc: "/color1.jpg" },
+    { title: "Référentiel Petite Enfance", description: "Accompagnement dans le cadre national...", imageSrc: "/child-learn.png" }
   ]
   
   /* REFS */
