@@ -9,7 +9,7 @@
         <!--  <AxesInterventionSection image-src="/forma-op1.jpg" image-alt="Accompagnement petite enfance" />-->
         
         <MesDomainesSolar 
-      central-image-src="/forma-op1.jpg"
+      central-image-src="/central-child.png"
       central-image-alt="Mon approche par Domaines d'Intervention"
     />
 
@@ -32,7 +32,6 @@ Aujourd’hui, je mets cette expérience au service des équipes, gestionnaires 
 <script setup>
 import HeroBanner from '~/components/banner/HeroBanner.vue'
 import CardEngagement from '~/components/cards/CardEngagement.vue'
-import AxesInterventionSection from '~/components/section/AxesInterventionSection.vue'
 import HeroWelcomeSection from '~/components/section/HeroWelcomeSection.vue'
 import MesDomainesSolar from '~/components/section/MesDomainesSolar.vue'
 </script>
