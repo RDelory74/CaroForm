@@ -7,8 +7,8 @@
   <div class="prestations-page">
 
     <!-- Formation APP -->
-    <section class="mb-8 md:p-6 p-2">
-      <div class="flex flex-col lg:flex-row items-stretch gap-8 min-h-[500px]">
+    <section class="mb-8 md:p-8 p-2">
+      <div class="flex flex-col lg:flex-row items-stretch gap-8 ">
         <!-- Image + Texte à gauche -->
         <div class="lg:w-1/3 flex flex-col items-start gap-4">
           <h2 class="text-2xl font-semibold mb-2">Formation APP</h2>
@@ -29,7 +29,13 @@
 
           <div class="flex-1">
             <CardDeroulement class="h-full" title="Déroulement"
-              description="Découvrez le programme détaillé, les étapes et les contenus de l’intervention." />
+              description="Découvrez le programme détaillé, les étapes et les contenus de l’intervention.
+              Formation dédiée aux professionnels de la petite enfance pour approfondir les pratiques pédagogiques et
+            l’accompagnement des équipes.
+            Formation dédiée aux professionnels de la petite enfance pour approfondir les pratiques pédagogiques et
+            l’accompagnement des équipes.
+            Formation dédiée aux professionnels de la petite enfance pour approfondir les pratiques pédagogiques et
+            l’accompagnement des équipes." />
           </div>
         </div>
       </div>
