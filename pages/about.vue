@@ -8,7 +8,7 @@
                 <!-- Header Section -->
                 <div class="text-center mb-16">
                     <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-                        🌱 Mon parcours professionnel
+                        Mon parcours professionnel
                     </h2>
                     <p class="text-lg md:text-xl text-gray-700 leading-relaxed max-w-4xl mx-auto">
                         Mon parcours s'est construit à la croisée des sciences humaines, de la pédagogie, de l'art et de
@@ -31,10 +31,13 @@
                         </div>
 
                         <!-- Image Right -->
-                        <div class="order-1 md:order-2 w-full overflow-hidden">
-                            <img src="/cloud.jpg" alt="Mon parcours professionnel"
-                                class="rounded-xl shadow-lg w-full h-auto object-cover" />
-                        </div>
+<div class="order-1 md:order-2 w-full md:w-1/2 overflow-hidden">
+  <img
+    src="/cloud.jpg"
+    alt="Mon parcours professionnel"
+    class="w-full h-64 md:h-full object-cover rounded-xl shadow-lg"
+  />
+</div>
                     </div>
                 </div>
 
@@ -44,8 +47,8 @@
                     <!-- Card 1: Sciences Humaines -->
                     <div
                         class="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-shadow duration-300 overflow-hidden">
-                        <div class="bg-[#6DA48F80] p-6">
-                            <h3 class="text-2xl md:text-3xl font-bold text-white flex items-center gap-3">
+                        <div class="bg-[#E0C734] p-6">
+                            <h3 class="text-2xl md:text-3xl font-bold text-[#223B81] flex items-center gap-3">
                                 Un socle solide en Sciences Humaines et Sociales
                             </h3>
                         </div>
@@ -82,8 +85,8 @@
                     <!-- Card 2: Petite Enfance -->
                     <div
                         class="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-shadow duration-300 overflow-hidden">
-                        <div class="bg-[#6DA48F80] p-6">
-                            <h3 class="text-2xl md:text-3xl font-bold text-white flex items-center gap-3">
+                        <div class="bg-[#E0C734] p-6">
+                            <h3 class="text-2xl md:text-3xl font-bold text-[#223B81] flex items-center gap-3">
                                 Un engagement ancré dans la petite enfance
                             </h3>
                         </div>
@@ -123,8 +126,8 @@
                 <!-- Full Width Card: Expériences -->
                 <div
                     class="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-shadow duration-300 overflow-hidden">
-                    <div class="bg-[#6DA48F80] p-6">
-                        <h3 class="text-2xl md:text-3xl font-bold text-white flex items-center gap-3">
+                    <div class="bg-[#E0C734] p-6">
+                        <h3 class="text-2xl md:text-3xl font-bold text-[#223B81] flex items-center gap-3">
                             Expériences en accueil collectif et individuel
                         </h3>
                     </div>
@@ -135,14 +138,14 @@
                         </p>
 
                         <div class="space-y-6">
-                            <div class="border-l-4 border-purple-600 pl-6">
+                            <div class="border-l-4 border-[#223B81] pl-6">
                                 <h4 class="text-xl font-bold text-gray-900 mb-2 flex items-center gap-2">
                                     🏫 Multi-accueil
                                 </h4>
                                 <p class="text-gray-700">en France, en Suisse et au sein de la fonction publique.</p>
                             </div>
 
-                            <div class="border-l-4 border-purple-600 pl-6">
+                            <div class="border-l-4 border-[#223B81] pl-6">
                                 <h4 class="text-xl font-bold text-gray-900 mb-2 flex items-center gap-2">
                                     🏡 Relais Petite Enfance
                                 </h4>
@@ -150,7 +153,7 @@
                                     la professionnalisation de leurs pratiques.</p>
                             </div>
 
-                            <div class="border-l-4 border-purple-600 pl-6">
+                            <div class="border-l-4 border-[#223B81] pl-6">
                                 <h4 class="text-xl font-bold text-gray-900 mb-2 flex items-center gap-2">
                                     🏢 Coordination pédagogique
                                 </h4>
@@ -168,7 +171,7 @@
                                 Ces expériences m'ont permis de saisir la richesse et la complexité des contextes
                                 institutionnels, d'en identifier les forces et les besoins.
                             </p>
-                            <p class="text-lg text-purple-700 font-semibold mt-4 leading-relaxed">
+                            <p class="text-lg text-[#223B81] font-semibold mt-4 leading-relaxed">
                                 🌟 Aujourd'hui, cette vision d'ensemble nourrit ma pratique de consultante et animatrice
                                 de groupes d'analyse de la pratique (APP), pour accompagner équipes, gestionnaires et
                                 professionnels avec écoute, pertinence et efficacité.

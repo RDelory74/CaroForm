@@ -216,7 +216,7 @@ export default {
 }
 
 .contact-form {
-  background: #6da48f49;
+  background: #E0C734;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   padding: 30px;
