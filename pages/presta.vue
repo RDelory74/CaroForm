@@ -1,4 +1,5 @@
 <template>
+  <ImageBanner src="/forma-op2.jpg" alt="Bannière Formations" class="!py-0 !rounded-none" />
   <h1 class="text-3xl py-5 text-center font-bold ">
     Mes Prestations
   </h1>
@@ -7,28 +8,29 @@
 
     <!-- Formation APP -->
     <section class="mb-8 md:p-6 p-2">
-      <div class="flex flex-col lg:flex-row items-start gap-8">
+      <div class="flex flex-col lg:flex-row items-stretch gap-8 min-h-[500px]">
         <!-- Image + Texte à gauche -->
         <div class="lg:w-1/3 flex flex-col items-start gap-4">
           <h2 class="text-2xl font-semibold mb-2">Formation APP</h2>
           <p class="text-gray-700">
             Formation dédiée aux professionnels de la petite enfance pour approfondir les pratiques pédagogiques et
             l’accompagnement des équipes.
-            Formation dédiée aux professionnels de la petite enfance pour approfondir les pratiques pédagogiques et
-            l’accompagnement des équipes.
-            Formation dédiée aux professionnels de la petite enfance pour approfondir les pratiques pédagogiques et
-            l’accompagnement des équipes.
           </p>
-          <img src="/hero1.png" alt="Formation APP" class="w-full rounded-lg shadow-md mb-4">
+          <img src="/FormAPP.png" alt="Formation APP" class="w-full rounded-lg shadow-md mb-4">
 
         </div>
 
         <!-- Cards à droite -->
-        <div class="lg:w-2/3 grid grid-cols-1 md:grid-cols-2 gap-6">
-          <CardPublic />
-          <CardDate />
-          <CardTarif />
-          <CardDeroulement />
+        <div class="lg:w-2/3 flex flex-col gap-6 h-full">
+          <div class="shrink-0">
+            <CardPublic title="Public visé"
+              description="Équipe de crèche, directrices, APP, EJE, personnel petite enfance" />
+          </div>
+
+          <div class="flex-1">
+            <CardDeroulement class="h-full" title="Déroulement"
+              description="Découvrez le programme détaillé, les étapes et les contenus de l’intervention." />
+          </div>
         </div>
       </div>
     </section>
@@ -49,8 +51,6 @@
 
         <div class="lg:w-2/3 grid grid-cols-1 md:grid-cols-2 gap-6">
           <CardPublic />
-          <CardDate />
-          <CardTarif />
           <CardDeroulement />
         </div>
       </div>
@@ -70,8 +70,6 @@
 
         <div class="lg:w-2/3 grid grid-cols-1 md:grid-cols-2 gap-6">
           <CardPublic />
-          <CardDate />
-          <CardTarif />
           <CardDeroulement />
         </div>
       </div>
@@ -91,8 +89,6 @@
 
         <div class="lg:w-2/3 grid grid-cols-1 md:grid-cols-2 gap-6">
           <CardPublic />
-          <CardDate />
-          <CardTarif />
           <CardDeroulement />
         </div>
       </div>
@@ -106,10 +102,9 @@
 
 <script setup>
 import CardPublic from '~/components/cards/CardPublic.vue'
-import CardDate from '~/components/cards/CardDate.vue'
-import CardTarif from '~/components/cards/CardTarif.vue'
 import CardDeroulement from '~/components/cards/CardDeroulement.vue'
 import ButtonBaseButtonTlwd from '~/components/button/BaseButtonTlwd.vue'
+import ImageBanner from '~/components/banner/ImageBanner.vue'
 
 
 

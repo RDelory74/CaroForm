@@ -4,7 +4,7 @@
       
       <!-- Logo -->
       <NuxtLink to="/" class="flex items-center gap-2">
-        <img src="@/public/logoCaro.png" alt="Logo" class="h-20 rounded-full" />
+        <img src="@/public/logoCaro.png" alt="Logo" class="h-10 rounded-full" />
       </NuxtLink>
 
       <!-- Nav buttons (desktop) -->
@@ -108,6 +108,7 @@ const buttons = [
   { label: 'A propos', to: '/about' },
   { label: 'Contact', to: '/contact' },
   { label: 'Eveil Artistique', to: '/eveil' },
+  
 ]
 
 const handleClick = (to) => {

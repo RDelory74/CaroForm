@@ -1,6 +1,7 @@
 <template>
+    <ImageBanner src="/color2.jpg" alt="Ma belle image" class="!py-0 !rounded-none" />
     <div class="min-h-screen bg-gradient-to-b from-blue-50 to-blue-300 p-8">
-        <ImageBanner src="/color2.jpg" alt="Ma belle image" />
+        
         
         <div class="max-w-5xl mx-auto space-y-12">
         <!-- Card Intro -->
