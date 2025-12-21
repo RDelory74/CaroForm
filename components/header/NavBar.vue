@@ -24,6 +24,13 @@
         />
 
         <BaseButtonTlwd
+          label="Eveil Artistique"
+          to="/eveil"
+          class="nav-btn"
+          :class="{ 'nav-active': route.path === '/eveil' }"
+        />
+
+        <BaseButtonTlwd
           label="A propos"
           to="/about"
           class="nav-btn"
@@ -100,6 +107,7 @@ const buttons = [
   { label: 'Formations', to: '/presta' },
   { label: 'A propos', to: '/about' },
   { label: 'Contact', to: '/contact' },
+  { label: 'Eveil Artistique', to: '/eveil' },
 ]
 
 const handleClick = (to) => {

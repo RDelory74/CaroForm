@@ -93,7 +93,7 @@
           <div
             ref="axe4Ref"
             :class="[
-              'absolute transition-all duration-1000 ease-out delay-800',
+              'absolute transition-all duration-1000 ease-out delay-700',
               visible.axe4 ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-20'
             ]"
             style="bottom:35%; right:12%; width:30%;height:20%"
@@ -105,7 +105,7 @@
           <div
             ref="axe5Ref"
             :class="[
-              'absolute transition-all duration-1000 ease-out delay-900',
+              'absolute transition-all duration-1000 ease-out delay-700',
               visible.axe5 ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-20'
             ]"
             style="top:20%; right:2%; transform:translateY(-50%); width:30%;height:20% ;"
@@ -119,7 +119,7 @@
         <div
           ref="buttonRef"
           :class="[
-            'text-center mt-4 p-4 transition-all duration-1000 ease-out delay-900',
+            'text-center mt-4 p-4 transition-all duration-1000 ease-out delay-800',
             visible.button ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
           ]"
         >

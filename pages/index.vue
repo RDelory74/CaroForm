@@ -12,26 +12,60 @@
       central-image-src="/central-child.png"
       central-image-alt="Mon approche par Domaines d'Intervention"
     />
+        
 
-        <CardEngagement title="Eveil Artistique et Culturel"
-            text="Je me suis orientée vers le métier d’Éducatrice de Jeunes Enfants (EJE) pour mettre mes savoirs théoriques en pratique.
-
-Cette expérience m’a permis de développer une compréhension fine du développement de l’enfant dans toutes ses dimensions.
-
-J’ai acquis une approche collaborative du travail d’équipe, fondée sur la coopération et la communication.
-
-J’ai maîtrisé la conduite de projets éducatifs et pédagogiques, articulant observation, analyse et mise en œuvre.
-
-
-Mon parcours en multi-accueil et en relais petite enfance m’a permis de comprendre la diversité des contextes institutionnels.
-
-Aujourd’hui, je mets cette expérience au service des équipes, gestionnaires et étudiants pour accompagner leurs pratiques professionnelles." image="/color1.jpg" />
+        <CardEngagementAccordion
+    title="Mes valeurs professionnelles"
+    image="/color1.jpg"
+    :items="valeursProfessionnelles"
+  />
+  <ImageBanner src="/forma-op1.jpg" image-alt="TeamWorkshop" />
     </div>
 </template>
 
 <script setup>
 import HeroBanner from '~/components/banner/HeroBanner.vue'
-import CardEngagement from '~/components/cards/CardEngagement.vue'
+import ImageBanner from '~/components/banner/ImageBanner.vue'
 import HeroWelcomeSection from '~/components/section/HeroWelcomeSection.vue'
 import MesDomainesSolar from '~/components/section/MesDomainesSolar.vue'
+import CardEngagementAccordion from '~/components/cards/CardEngagementAccordion.vue'
+
+const valeursProfessionnelles = [
+  {
+    title: "Une approche systémique ancrée dans les sciences humaines",
+    content:
+      "Diplômée en sociologie et en ethnologie, j’accorde une importance centrale à la compréhension des dynamiques humaines et sociales : relations, contextes, institutions, émotions et représentations. Cette base me permet d’adopter une posture analytique, nuancée et ouverte, essentielle pour accompagner les professionnels dans l’élaboration de leurs pratiques."
+  },
+  {
+    title: "La participation active comme moteur d’apprentissage",
+    content:
+      "Mon expérience en formation et en analyse des pratiques m’a confirmé qu’on apprend mieux en faisant, en échangeant et en questionnant. Je crée des espaces où chaque professionnel devient acteur : partage d’expériences, co-construction de réponses et réflexivité collective. Une séance n’est jamais une transmission descendante, mais une dynamique vivante."
+  },
+  {
+    title: "Une expertise issue du terrain petite enfance",
+    content:
+      "Mon parcours d’Éducatrice de Jeunes Enfants puis de professionnelle en Relais Petite Enfance nourrit ma compréhension concrète des besoins des enfants, du vécu des familles et du quotidien des équipes. Cette immersion de terrain me permet d’accompagner avec justesse, en tenant compte de la réalité du travail."
+  },
+  {
+    title: "Une adaptation fine aux besoins de chaque équipe",
+    content:
+      "Chaque structure a son histoire, ses valeurs et ses défis. J’entre dans leur réalité afin d’ajuster mes interventions — rythme, outils et méthodes — pour soutenir leur dynamique interne, sans jamais plaquer un modèle préconçu."
+  },
+  {
+    title: "La conviction que la réflexivité transforme les pratiques",
+    content:
+      "Les professionnels gagnent en confiance, en qualité d’accueil et en cohérence lorsqu’ils peuvent analyser ce qu’ils vivent et élaborer ensemble de nouveaux repères. Favoriser cette réflexivité est pour moi un engagement central."
+  },
+  {
+    title: "La sécurité affective comme repère fondamental",
+    content:
+      "Qu’il s’agisse de l’enfant ou du professionnel, la sécurité relationnelle, émotionnelle et institutionnelle constitue la base. J’accompagne les équipes à identifier les conditions favorisant un climat de confiance, afin d’ajuster leurs pratiques."
+  },
+  {
+    title: "Une posture éthique, humaniste et respectueuse",
+    content:
+      "Mon accompagnement repose sur l’écoute authentique, le respect, le non-jugement et la co-construction. Soutenir sans imposer, éclairer sans diriger et permettre sans contraindre sont au cœur de ma posture professionnelle."
+  }
+]
+
 </script>

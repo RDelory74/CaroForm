@@ -41,10 +41,8 @@
             'space-y-4 text-gray-700 leading-relaxed transition-all duration-700 delay-700',
             isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
           ]"
+               v-html="text"
         >
-          <p v-for="(paragraph, index) in paragraphs" :key="index">
-            {{ paragraph }}
-          </p>
         </div>
       </div>
 

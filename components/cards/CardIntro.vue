@@ -1,5 +1,5 @@
 <template>
-    <div class="group relative max-w-2xl my-6 mx-auto overflow-hidden rounded-3xl bg-grey-500 p-8 shadow-2xl transition-all duration-300 hover:-translate-y-2 hover:shadow-[0_30px_80px_rgba(0,0,0,0.4)]">
+    <div class="group relative max-w-2xl my-6 mx-auto overflow-hidden rounded-3xl bg-white p-8 shadow-2xl transition-all duration-300 hover:-translate-y-2 hover:shadow-[0_30px_80px_rgba(0,0,0,0.4)]">
       <!-- Header -->
       <div class="mb-6 text-center">
         <h2 class="mb-2 text-4xl font-extrabold tracking-tight text-black drop-shadow-lg md:text-5xl">
