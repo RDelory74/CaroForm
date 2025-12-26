@@ -123,7 +123,7 @@
                     </div>
 
                 </div>
-                <ImageBanner src="/society-about.png" alt="Ma belle image" />
+                <ImageBanner src="/society-about.png" alt="Ma belle image"  />
                 <!-- Full Width Card: Expériences -->
                 <div
                     class="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-shadow duration-300 overflow-hidden">
