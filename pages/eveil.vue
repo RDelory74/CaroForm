@@ -1,6 +1,6 @@
 <template>
     <ImageBanner src="/color2.jpg" alt="Ma belle image" class="!py-0 !rounded-none" />
-    <div class="min-h-screen p-8">
+    <div class="min-h-screen p-2 md:p-8">
 
 
         <div class="max-w-5xl mx-auto space-y-12">
@@ -8,6 +8,7 @@
             <CardIntro title="Éveil Artistique et Culturel" subtitle="Un Chemin d’humanisation dès la naissance"
                 image1="/color4.jpg" image2="/color3.jpg"
                 text="L’éveil artistique et culturel n’est pas un « plus » dans la vie d’un enfant : c’est une véritable nourriture intérieure. Dès ses premiers jours, le tout-petit a besoin de voix, de gestes, d’images et de poésie pour entrer en relation avec le monde. Ces expériences sensibles nourrissent sa construction identitaire, sa santé psychique et la qualité du lien parent-enfant." />
+            <!-- Card Experiences -->
             <CardExpe title="Expériences en accueil collectif et individuel"
                 intro="En proposant des moments artistiques adaptés — contes, musique, arts visuels, rencontres sensibles — vous offrez à l’enfant un espace où se tissent confiance, émotion, curiosité et sécurité intérieure."
                 :blocks="[
@@ -42,27 +43,32 @@
                         text: 'Les artistes occupent une place essentielle dans ce processus. Leur présence dans les crèches, les lieux d’accueil ou les structures de soins ouvre des espaces d’émotion, de sensibilité et de rencontre. Ils invitent à voir autrement, à ressentir profondément, à imaginer librement. Ils sont passeurs de sens et d’humanité, travaillant main dans la main avec les équipes éducatives, sociales et médicales pour créer des expériences esthétiques à la portée de tous.'
                     }
                 ]" :footer="[
-    'À travers de mes actions, j’accompagne les professionnels, les structures et les familles dans la mise en place d’un véritable écosystème culturel : chaleureux, sensible, accessible dès la naissance, et profondément centré sur la relation.',
-    ]" />
+                    'À travers de mes actions, j’accompagne les professionnels, les structures et les familles dans la mise en place d’un véritable écosystème culturel : chaleureux, sensible, accessible dès la naissance, et profondément centré sur la relation.',
+                ]" />
 
             <!-- Axe Cards -->
             <div class="grid gap-8 md:grid-cols-2">
                 <AxeCard title="Experience Artistique pour les Tout-Petits"
                     description="Offrir aux enfants des expériences artistiques fondatrices"
                     imageSrc="/inspiring-child.png" :isVisible="true" :delay="0" />
-                <AxeCard title="Accompagnement des Parents"
-                    description="Soutenir les parents dans leur rôle créatif"
+                <AxeCard title="Accompagnement des Parents" description="Soutenir les parents dans leur rôle créatif"
                     imageSrc="/parent-eveil.png" :isVisible="true" :delay="200" />
                 <AxeCard title="Au sein de la Communauté"
-                    description="Renforcer les liens humains au cœur des territoires"
-                    imageSrc="/community-eveil.png" :isVisible="true" :delay="400" />
+                    description="Renforcer les liens humains au cœur des territoires" imageSrc="/community-eveil.png"
+                    :isVisible="true" :delay="400" />
                 <AxeCard title="Au sein de l'environnement"
                     description="Créer des espaces de beauté, de respiration et d’imaginaire"
                     imageSrc="/environ-eveil.png" :isVisible="true" :delay="600" />
             </div>
         </div>
-      
+        
     </div>
+    <ParallaxSection image="/artherapi.png" title="ArtTherapie"
+            subtitle="Un espace pour penser le travail autrement"
+            description="L’art-thérapie offre un espace sécurisé où chacun peut exprimer ses émotions et sa créativité à travers différentes formes artistiques : dessin, peinture, modelage ou collage. Cette approche permet de libérer les tensions, développer la confiance en soi, stimuler l’imagination et renforcer le bien-être mental et émotionnel. Elle favorise également l’écoute, la réflexion personnelle et la cohésion au sein des groupes, tout en respectant le rythme et les besoins de chaque participant." />
+            <div class="flex justify-center w-full">
+            <ButtonBaseButtonTlwd label="Plus d'informations ?" to="/contact" variant="secondary" class=" my-6" />
+          </div>
 </template>
 
 <script setup lang="ts">
@@ -70,5 +76,6 @@ import CardIntro from '@/components/cards/CardIntro.vue'
 import AxeCard from '@/components/cards/AxeCard.vue'
 import ImageBanner from '@/components/banner/ImageBanner.vue'
 import CardExpe from '~/components/cards/CardExpe.vue';
+import ParallaxSection from '~/components/section/ParallaxSection.vue';
 
 </script>

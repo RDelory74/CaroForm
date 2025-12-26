@@ -8,7 +8,7 @@
       </div>
   
       <!-- Content -->
-      <div class="p-8">
+      <div class="p-2 md:p-8">
         <p v-if="intro" class="text-gray-700 mb-6 leading-relaxed text-lg">{{ intro }}</p>
   
         <!-- Blocks -->

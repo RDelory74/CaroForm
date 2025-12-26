@@ -3,6 +3,8 @@
   <h1 class="text-4xl md:text-5xl lg:text-6xl py-5 text-center font-bold ">
     Mes Prestations
   </h1>
+  <div class="col-span-full h-[4px] bg-[#E0C734] m-[10px] lg:m-[60px]"></div>
+
 
   <div class="prestations-page">
 
@@ -69,7 +71,7 @@ Mon rôle est d’ouvrir un espace où chacun peut penser son travail autrement,
       </div>
     </section>
 
-    <div class="separator"></div>
+    <div class="col-span-full h-[4px] bg-[#E0C734] m-[10px] lg:m-[60px]"></div>
 
 <!-- Ateliers Thematiques-->
     <section class="mb-8 md:p-8 p-2">
@@ -78,7 +80,7 @@ Mon rôle est d’ouvrir un espace où chacun peut penser son travail autrement,
         <!-- TEXTE + IMAGE + BOUTON -->
         <div class="lg:w-1/3 flex flex-col items-start gap-4 order-1 lg:order-2">
           <h2 class="text-3xl font-semibold mb-2">
-            L’Analyse de la Pratique Professionnelle en crèche
+            Animer les débats auprès des professionnels de la petite enfance
           </h2>
 
           <p class="text-gray-700">
@@ -113,7 +115,7 @@ Mon rôle est d’ouvrir un espace où chacun peut penser son travail autrement,
     </section>
 
 
-    <div class="separator"></div>
+    <div class="col-span-full h-[4px] bg-[#E0C734] m-[10px] lg:m-[60px]"></div>
     <!-- Conférence -->
     <section class="mb-8 md:p-6 p-2">
       <div class="flex flex-col lg:flex-row items-start gap-8 ">
@@ -131,7 +133,7 @@ Mon rôle est d’ouvrir un espace où chacun peut penser son travail autrement,
         </div>
       </div>
     </section>
-    <div class="separator"></div>
+    <div class="col-span-full h-[4px] bg-[#E0C734] m-[10px] lg:m-[60px]"></div>
     <!-- Analyse de pratiques -->
     <section class="mb-8 md:p-6 p-2">
       <div class="flex flex-col lg:flex-row items-start gap-8">
@@ -170,8 +172,8 @@ import ImageBanner from '~/components/banner/ImageBanner.vue'
 <style scoped>
 .separator {
   grid-column: 1 / -1;
-  height: 1px;
-  background: rgba(0, 0, 0, 0.15);
+  height: 4px;
+  background: #E0C734;
   margin: 10px 10px;
 }
 </style>
