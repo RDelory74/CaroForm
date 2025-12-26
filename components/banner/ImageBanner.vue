@@ -3,7 +3,7 @@
       <img 
         :src="src" 
         :alt="alt" 
-        class="w-full h-[200px] rounded-2xl  object-cover"
+        class="w-full h-[200px] rounded-none  object-cover"
       />
     </div>
   </template>

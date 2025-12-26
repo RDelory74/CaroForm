@@ -20,7 +20,7 @@ const variantClasses = {
 <template>
   <NuxtLink
     :to="to"
-    class="inline-block rounded px-8 py-4 font-bold text-lg shadow-md transition-all duration-300 ease-in-out border-2 border-transparent hover:scale-105 no-underline"
+    class="inline-block rounded px-8 py-4 font-bold text-sm shadow-md transition-all duration-300 ease-in-out border-2 border-transparent hover:scale-105 no-underline"
     :class="variantClasses[variant]"
   >
     {{ label }}

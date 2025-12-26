@@ -1,5 +1,9 @@
 <template>
-  <header class="bg-[#223B81] text-white w-full relative">
+  <header
+    class="bg-[#223B81] text-white w-full fixed top-0 left-0 z-50
+           transition-transform duration-300 ease-in-out"
+    :class="isVisible ? 'translate-y-0' : '-translate-y-full'"
+  >
     <div class="flex justify-between items-center px-6 py-2 md:px-20">
       
       <!-- Logo -->
@@ -62,9 +66,8 @@
         @click.self="isModalOpen = false"
       >
         <div
-          class="bg-[#223B8180] p-6 rounded-lg flex flex-col items-center space-y-6 w-4/5 max-w-sm" 
-        > <!-- Close  #223B81 -->
-          <!-- Close button -->
+          class="bg-[#223B8180] p-6 rounded-lg flex flex-col items-center space-y-6 w-4/5 max-w-sm"
+        >
           <button
             @click="isModalOpen = false"
             class="self-end mb-4 text-2xl focus:outline-none"
@@ -72,12 +75,10 @@
             &times;
           </button>
 
-          <!-- Logo -->
           <NuxtLink to="/" class="mb-4">
             <img src="@/public/logoCaro.png" alt="Logo" class="h-16 mx-auto rounded-full" />
           </NuxtLink>
 
-          <!-- Nav buttons -->
           <BaseButtonTlwd
             v-for="btn in buttons"
             :key="btn.label"
@@ -94,30 +95,58 @@
 </template>
 
 <script setup>
-import { ref } from 'vue'
-import { useRoute, useRouter } from 'vue-router'
-import BaseButtonTlwd from '~/components/button/BaseButtonTlwd.vue'
-
-const router = useRouter()
-const route = useRoute()
-const isModalOpen = ref(false)
-
-const buttons = [
-  { label: 'Accueil', to: '/' },
-  { label: 'Formations', to: '/presta' },
-  { label: 'A propos', to: '/about' },
-  { label: 'Contact', to: '/contact' },
-  { label: 'Eveil Artistique', to: '/eveil' },
+  import { ref, onMounted, onUnmounted } from 'vue'
+  import { useRoute, useRouter } from 'vue-router'
+  import BaseButtonTlwd from '~/components/button/BaseButtonTlwd.vue'
   
-]
-
-const handleClick = (to) => {
-  isModalOpen.value = false
-  setTimeout(() => {
-    router.push(to)
-  }, 300)
-}
+  const router = useRouter()
+  const route = useRoute()
+  
+  const isModalOpen = ref(false)
+  
+  // 🔽 NOUVEAU
+  const isVisible = ref(true)
+  let lastScrollY = 0
+  const SCROLL_THRESHOLD = 80
+  
+  const handleScroll = () => {
+    const currentScrollY = window.scrollY
+  
+    if (currentScrollY < lastScrollY) {
+      // Scroll vers le haut
+      isVisible.value = true
+    } else if (currentScrollY > SCROLL_THRESHOLD) {
+      // Scroll vers le bas
+      isVisible.value = false
+    }
+  
+    lastScrollY = currentScrollY
+  }
+  
+  onMounted(() => {
+    window.addEventListener('scroll', handleScroll, { passive: true })
+  })
+  
+  onUnmounted(() => {
+    window.removeEventListener('scroll', handleScroll)
+  })
+  
+  const buttons = [
+    { label: 'Accueil', to: '/' },
+    { label: 'Formations', to: '/presta' },
+    { label: 'A propos', to: '/about' },
+    { label: 'Contact', to: '/contact' },
+    { label: 'Eveil Artistique', to: '/eveil' },
+  ]
+  
+  const handleClick = (to) => {
+    isModalOpen.value = false
+    setTimeout(() => {
+      router.push(to)
+    }, 300)
+  }
 </script>
+
 
 <style scoped>
 /* Desktop style override (no background, no border, no shadow) */

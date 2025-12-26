@@ -42,7 +42,7 @@
               isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
             ]"
           >
-            Accompagner, comprendre, grandir ensemble aujourd'hui
+            Accompagner Comprendre Grandir ensemble aujourd'hui
           </h1>
           <p 
             :class="[
