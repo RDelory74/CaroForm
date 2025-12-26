@@ -1,6 +1,6 @@
 <template>
   <header
-    class="bg-[#223B81] text-white w-full fixed top-0 left-0 z-50
+    class="bg-[#223B81] text-white w-full fixed top-0 left-0 z-40
            transition-transform duration-300 ease-in-out"
     :class="isVisible ? 'translate-y-0' : '-translate-y-full'"
   >
@@ -62,7 +62,7 @@
     <transition name="slide-right">
       <div
         v-if="isModalOpen"
-        class="fixed inset-0 bg-black/20 backdrop-blur-sm flex justify-center items-center z-50"
+        class="fixed top-0 left-0 w-screen h-screen bg-black/20 backdrop-blur-sm flex justify-center items-center z-[999]"
         @click.self="isModalOpen = false"
       >
         <div
