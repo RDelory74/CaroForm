@@ -1,6 +1,6 @@
 <template>
     <ImageBanner src="/color2.jpg" alt="Ma belle image" class="!py-0 !rounded-none" />
-    <div class="min-h-screen bg-gradient-to-b from-blue-50 to-blue-300 p-8">
+    <div class="min-h-screen p-8">
 
 
         <div class="max-w-5xl mx-auto space-y-12">
@@ -39,7 +39,7 @@
                     {
                         icon: '🎭',
                         title: 'Les artistes : des passeurs d’humanité',
-                        text: 'En s’invitant dans les lieux d’accueil, les artistes ouvrent des mondes. Ils éveillent l’imaginaire, invitent à ressentir, à rêver, à regarder autrement. Leur présence aux côtés des équipes éducatives, sociales ou médicales enrichit profondément le quotidien des enfants et des familles.'
+                        text: 'Les artistes occupent une place essentielle dans ce processus. Leur présence dans les crèches, les lieux d’accueil ou les structures de soins ouvre des espaces d’émotion, de sensibilité et de rencontre. Ils invitent à voir autrement, à ressentir profondément, à imaginer librement. Ils sont passeurs de sens et d’humanité, travaillant main dans la main avec les équipes éducatives, sociales et médicales pour créer des expériences esthétiques à la portée de tous.'
                     }
                 ]" :footer="[
     'À travers de mes actions, j’accompagne les professionnels, les structures et les familles dans la mise en place d’un véritable écosystème culturel : chaleureux, sensible, accessible dès la naissance, et profondément centré sur la relation.',
@@ -61,6 +61,7 @@
                     imageSrc="/environ-eveil.png" :isVisible="true" :delay="600" />
             </div>
         </div>
+      
     </div>
 </template>
 
@@ -69,4 +70,5 @@ import CardIntro from '@/components/cards/CardIntro.vue'
 import AxeCard from '@/components/cards/AxeCard.vue'
 import ImageBanner from '@/components/banner/ImageBanner.vue'
 import CardExpe from '~/components/cards/CardExpe.vue';
+
 </script>

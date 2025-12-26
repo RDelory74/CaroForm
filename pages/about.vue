@@ -1,4 +1,5 @@
 <template>
+    <ImageBanner src="/parent-guiding.jpg" alt="Hero Image" class="!py-0 !rounded-none" />
     <div class="gap-4">
 
 
@@ -122,7 +123,7 @@
                     </div>
 
                 </div>
-                <ImageBanner src="/rando2.jpg" alt="Ma belle image" />
+                <ImageBanner src="/society-about.png" alt="Ma belle image" />
                 <!-- Full Width Card: Expériences -->
                 <div
                     class="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-shadow duration-300 overflow-hidden">

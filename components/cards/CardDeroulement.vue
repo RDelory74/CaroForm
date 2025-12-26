@@ -1,15 +1,16 @@
 <template>
   <CardBase>
     <template #icon>
-    <img src="~/assets/svg/checklist.svg" alt="Déroulement" /> 
-  </template>
+      <img src="~/assets/svg/checklist.svg" alt="Déroulement" /> 
+    </template>
 
     <template #title>
       {{ title }}
     </template>
 
     <template #description>
-      {{ description }}
+      <!-- Utilisation de v-html pour que le HTML soit interprété -->
+      <div v-html="description"></div>
     </template>
   </CardBase>
 </template>
