@@ -19,7 +19,7 @@
     image="/color1.jpg"
     :items="valeursProfessionnelles"
   />
-  <ImageBanner src="/forma-op1.jpg" image-alt="TeamWorkshop" />
+  <ImageBanner src="/forma-op1.jpg" image-alt="TeamWorkshop" class="!py-0" />
     </div>
 </template>
 
