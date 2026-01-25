@@ -134,9 +134,9 @@
   const buttons = [
     { label: 'Accueil', to: '/' },
     { label: 'Formations', to: '/presta' },
+    { label: 'Eveil Artistique', to: '/eveil' },
     { label: 'A propos', to: '/about' },
     { label: 'Contact', to: '/contact' },
-    { label: 'Eveil Artistique', to: '/eveil' },
   ]
   
   const handleClick = (to) => {
