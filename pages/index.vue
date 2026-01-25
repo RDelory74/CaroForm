@@ -12,6 +12,60 @@
       central-image-src="/central-child.png"
       central-image-alt="Mon approche par Domaines d'Intervention"
     />
+
+    <section class="w-full bg-white py-12 md:py-20">
+  <div class="max-w-6xl mx-auto px-6">
+
+    <!-- Titre -->
+    <div class="bg-[#E0C734] p-6 rounded-xl shadow-md mb-10">
+      <h3 class="text-2xl md:text-3xl font-bold text-[#223B81] text-center">
+        Pourquoi faire appel à mes services ?
+      </h3>
+    </div>
+
+    <!-- Bloc contenu -->
+    <div class="grid md:grid-cols-3 gap-8">
+
+      <!-- Gestionnaires -->
+      <div class="bg-white rounded-xl shadow-lg p-6 border border-gray-100 hover:shadow-xl transition">
+        <h4 class="text-xl font-semibold text-[#223B81] mb-4">
+          Pour les gestionnaires et directions
+        </h4>
+        <ul class="space-y-3 text-gray-700 text-sm md:text-base leading-relaxed">
+          <li>• Clarifier et formaliser le projet éducatif et pédagogique de la structure, en cohérence avec ses valeurs et son identité.</li>
+          <li>• Renforcer la cohérence institutionnelle et soutenir l’organisation et le pilotage des équipes.</li>
+          <li>• Bénéficier d’un accompagnement sur mesure, adapté aux besoins spécifiques de votre structure.</li>
+        </ul>
+      </div>
+
+      <!-- Équipes -->
+      <div class="bg-white rounded-xl shadow-lg p-6 border border-gray-100 hover:shadow-xl transition">
+        <h4 class="text-xl font-semibold text-[#223B81] mb-4">
+          Pour les équipes professionnelles
+        </h4>
+        <ul class="space-y-3 text-gray-700 text-sm md:text-base leading-relaxed">
+          <li>• Développer une posture réflexive et analyser les pratiques à partir des situations concrètes.</li>
+          <li>• Consolider la collaboration et la communication au sein de l’équipe pour renforcer cohésion et efficacité.</li>
+          <li>• Mettre en œuvre des pratiques éducatives ajustées aux besoins et aux rythmes des enfants favorisant la qualité d’accueil.</li>
+        </ul>
+      </div>
+
+      <!-- Enfants & familles -->
+      <div class="bg-white rounded-xl shadow-lg p-6 border border-gray-100 hover:shadow-xl transition">
+        <h4 class="text-xl font-semibold text-[#223B81] mb-4">
+          Pour les enfants et leurs familles
+        </h4>
+        <ul class="space-y-3 text-gray-700 text-sm md:text-base leading-relaxed">
+          <li>• Favoriser la sécurité affective, l’autonomie, la créativité et l’exploration dans un cadre bienveillant.</li>
+          <li>• Intégrer l’art, la culture et l’expérience sensorielle pour soutenir le développement global de l’enfant.</li>
+          <li>• Assurer une continuité éducative entre la structure et la famille, en valorisant la co-éducation.</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</section>
+
         
 
         <CardEngagementAccordion

@@ -14,9 +14,7 @@
             Mes domaines d'intervention
           </h2>
           <p class="text-lg text-gray-700 max-w-3xl mx-auto">
-            J'accompagne les équipes à mettre en mots leur travail, comprendre les enjeux contemporains et co-construire
-            des pratiques ajustées
-          </p>
+            J’accompagne les équipes et les structures éducatives à comprendre les enjeux contemporains de leur métier, structurer leurs projets et faire évoluer leurs pratiques </p>
         </div>
   
         <!-- Mobile Layout -->
@@ -60,7 +58,7 @@
               'absolute transition-all duration-1000 ease-out delay-500',
               visible.axe1 ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-20'
             ]"
-            style="top:20%; left:2%; transform:translateY(-50%); width:30%;height:20%"
+            style="top:20%; left:2%; transform:translateY(-50%); width:30%;height:30%"
           >
             <AxeCard v-bind="axes[0]" :isVisible="true" class="w-full h-full" />
           </div>
@@ -72,7 +70,7 @@
               'absolute transition-all duration-1000 ease-out delay-600',
               visible.axe2 ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-20'
             ]"
-            style="bottom:35%; left:12%; width:30%;height:20%"
+            style="bottom:30%; left:12%; width:30%;height:30%"
           >
             <AxeCard v-bind="axes[1]" :isVisible="true"  />
           </div>
@@ -84,7 +82,7 @@
               'absolute transition-all duration-1000 ease-out delay-600',
               visible.axe3 ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-20'
             ]"
-            style="bottom:5%; left:50%; transform:translateX(-50%); width:30%;height:20%"
+            style="bottom:-5%; left:50%; transform:translateX(-50%); width:30%;height:30%"
           >
             <AxeCard v-bind="axes[2]" :isVisible="true"  />
           </div>
@@ -96,7 +94,7 @@
               'absolute transition-all duration-1000 ease-out delay-600',
               visible.axe4 ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-20'
             ]"
-            style="bottom:35%; right:12%; width:30%;height:20%"
+            style="bottom:30%; right:12%; width:30%;height:30%"
           >
             <AxeCard v-bind="axes[3]" :isVisible="true"  />
           </div>
@@ -108,7 +106,7 @@
               'absolute transition-all duration-1000 ease-out delay-600',
               visible.axe5 ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-20'
             ]"
-            style="top:20%; right:2%; transform:translateY(-50%); width:30%;height:20% ;"
+            style="top:20%; right:2%; transform:translateY(-50%); width:30%;height:30% ;"
           >
             <AxeCard v-bind="axes[4]" :isVisible="true"  />
           </div>
@@ -146,11 +144,11 @@
   
   /* AXES DATA */
   const axes = [
-    { title: "Formation sur mesure", description: "Des parcours adaptés...", imageSrc: "/analyse-practice.png" },
-    { title: "Analyse de la pratique professionnelle", description: "Des espaces de réflexion...", imageSrc: "/analyse-practice-team.png" },
-    { title: "Accompagnement consultatif", description: "Un soutien personnalisé...", imageSrc: "/team-working.png" },
-    { title: "Éveil artistique et culturel", description: "Des projets pour la créativité...", imageSrc: "/color1.jpg" },
-    { title: "Référentiel Petite Enfance", description: "Accompagnement dans le cadre national...", imageSrc: "/child-learn.png" }
+    { title: "Des formations professionnelles sur mesure", description: "À destination des équipes de la petite enfance, de l’éducation, pour approfondir leurs connaissances, consolider leurs pratiques pédagogiques quotidiennes et soutenir l’évolution de leurs compétences au service de la qualité éducative", imageSrc: "/analyse-practice.png" },
+    { title: "Des espaces d’Analyse de la Pratique Professionnelle (APP)", description: "Pour offrir aux professionnels un lieu où questionner leurs actions, éclairer les situations qui interpellent et développer une posture réflexive favorisant la cohérence éducative et la qualité de l’accompagnement.", imageSrc: "/analyse-practice-team.png" },
+    { title: "Un accompagnement consultatif des structures", description: "À destination des gestionnaires et directions, pour les aider à clarifier leur projet initial, définir leur identité institutionnelle et construire un projet éducatif cohérent, fidèle aux valeurs qu’elles souhaitent porter et transmettre aux équipes comme aux familles.", imageSrc: "/team-working.png" },
+    { title: "L’accompagnement de projets d’éveil artistique et culturel", description: "Pour intégrer l’art, la création et l’expérience sensible au cœur des pratiques, en cohérence avec les besoins développementaux du jeune enfant et l’identité de la structure.", imageSrc: "/color1.jpg" },
+    { title: "L’accompagnement à la mise en œuvre du Référentiel Petite Enfance", description: "Pour aider les équipes et les institutions à s’approprier ce cadre national, harmoniser leurs pratiques et valoriser la qualité d’accueil et de l’accompagnement parental.", imageSrc: "/child-learn.png" }
   ]
   
   /* REFS */

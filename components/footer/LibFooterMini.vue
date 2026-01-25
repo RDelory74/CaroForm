@@ -3,7 +3,7 @@
     <div class="max-w-7xl mx-auto flex flex-col md:flex-row md:justify-between md:items-start gap-10">
       <div class="flex flex-col md:flex-row gap-10 flex-1">
         <div>
-          <h3 class="text-white tracking-wider text-lg font-semibold mb-4">Caroline Caballe Delory</h3>
+          <h3 class="text-white tracking-wider text-lg font-semibold mb-4">Caroline Delory</h3>
           <ul class="space-y-2 text-sm text-white">
             <li>Email : <a href="mailto:carolinecaballe@gmail.com">carolinecaballe@gmail.com</a></li>
             <li><a href="tel:0617281385">Téléphone : +33 6 17 28 13 85</a></li>
