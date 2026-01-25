@@ -6,7 +6,7 @@
         <div class="max-w-5xl mx-auto space-y-12">
             <!-- Card Intro -->
             <CardIntro title="Éveil Artistique et Culturel" subtitle="Un Chemin d’humanisation dès la naissance"
-                image1="/color4.jpg" image2="/color3.jpg"
+                image1="/color4.jpg" image2="/eveil-pictur2.png"
                 text="L’éveil artistique et culturel n’est pas un « plus » dans la vie d’un enfant : c’est une véritable nourriture intérieure. Dès ses premiers jours, le tout-petit a besoin de voix, de gestes, d’images et de poésie pour entrer en relation avec le monde. Ces expériences sensibles nourrissent sa construction identitaire, sa santé psychique et la qualité du lien parent-enfant." />
             <!-- Card Experiences -->
             <CardExpe title="Expériences en accueil collectif et individuel"
@@ -45,6 +45,7 @@
                 ]" :footer="[
                     'À travers de mes actions, j’accompagne les professionnels, les structures et les familles dans la mise en place d’un véritable écosystème culturel : chaleureux, sensible, accessible dès la naissance, et profondément centré sur la relation.',
                 ]" />
+<ImageBanner src="/inspiring-child.png" alt="Ma belle image"  />
 
             <!-- Axe Cards -->
             <div class="grid gap-8 md:grid-cols-2">

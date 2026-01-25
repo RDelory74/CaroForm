@@ -62,8 +62,6 @@
 
   <div class="col-span-full h-[4px] bg-[#E0C734] m-[10px] lg:m-[60px]"></div>
 
-
-
   <!--Section APP-->
   <section class="py-16 bg-white">
     <div class="max-w-6xl mx-auto px-6">
@@ -376,11 +374,11 @@
 
 
 
-  <div class="text-center mt-2 p-4">
+  <div class="text-center  p-6">
     <ButtonBaseButtonTlwd label="Contactez-moi pour plus d'informations" to="/contact" variant="secondary" />
   </div>
 
-
+  <ImageBanner src="/FormAPP.png" alt="Ma belle image" class="!py-0" />
 </template>
 
 <script setup>

@@ -1,9 +1,9 @@
 <template>
-    <ImageBanner src="/parent-guiding.jpg" alt="Hero Image" class="!py-0 !rounded-none" />
+    <ImageBanner src="/environ-eveil.png" alt="Hero Image" class="!py-0 !rounded-none" />
     <div class="gap-4">
 
 
-        <section class="bg-gradient-to-b from-white to-gray-50 py-16 md:py-24">
+        <section class="bg-white py-16 md:py-10">
             <div class="container mx-auto px-4 max-w-6xl">
 
                 <!-- Header Section -->
@@ -11,36 +11,86 @@
                     <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
                         Mon parcours professionnel
                     </h2>
-                    <p class="text-lg md:text-xl text-gray-700 leading-relaxed max-w-4xl mx-auto">
-                        Mon parcours s'est construit à la croisée des sciences humaines, de la pédagogie, de l'art et de
-                        la culture, guidé par une conviction : <strong>comprendre l'humain pour mieux accompagner les
-                            pratiques professionnelles.</strong>
+
+                    <!-- Premier paragraphe -->
+                    <p class="text-lg md:text-xl text-gray-700 leading-relaxed max-w-4xl mx-auto mb-6">
+                        Formatrice, consultante et animatrice de groupes d’analyse de la pratique, j’accompagne les
+                        professionnels et les équipes de la petite enfance, ainsi que les institutions accueillant des
+                        enfants et leurs familles, dans le développement de leurs compétences et de leur posture
+                        professionnelle.
                     </p>
-                    <div class="grid md:grid-cols-2 gap-8 items-center max-w-6xl mx-auto mt-8">
-                        <!-- Text Left -->
-                        <div class="order-2 md:order-1">
-                            <p class="text-lg text-gray-600 leading-relaxed">
-                                Ce cursus m'a apporté un cadre théorique et méthodologique solide et m'a permis de
-                                développer une <strong class="text-black text-xl font-bold">approche globale et
-                                    sensible</strong> de la
-                                relation humaine, essentielle à mon accompagnement des <strong
-                                    class="text-black text-xl font-bold">professionnels de la petite enfance</strong>.
-                                Il m'a également
-                                appris à relier le vécu individuel aux dimensions collectives et à observer les <strong
-                                    class="text-black text-xl font-bold">dynamiques institutionnelles</strong>.
-                            </p>
+
+                    <!-- Image après premier paragraphe -->
+                    <div class="mb-8 overflow-hidden">
+                        <img src="/RandoImg.png" alt="Accompagnement des professionnels"
+                            class="w-full h-64 md:h-96 object-cover rounded-xl shadow-lg mx-auto" />
+                    </div>
+
+                    <!-- Suite du texte -->
+                    <div class="text-left max-w-4xl mx-auto space-y-6">
+
+                        <p class="text-lg text-gray-600 leading-relaxed">
+                            J’ouvre des espaces de réflexion et de mise en mots permettant de questionner le sens des
+                            pratiques, de mieux comprendre les évolutions de la famille contemporaine et leurs effets
+                            sur les relations éducatives, et de soutenir une <strong
+                                class="text-gray-900 font-semibold">qualité d’accueil consciente, éthique et
+                                engagée</strong>.
+                        </p>
+
+                        <p class="text-lg text-gray-600 leading-relaxed">
+                            Mon approche est centrée sur l’enfant, sa famille et les relations qui se tissent au
+                            quotidien, dans une dynamique de co-construction avec les équipes et les institutions.
+                        </p>
+
+                        <p class="text-lg text-gray-600 leading-relaxed">
+                            Titulaire d’une Licence en Sciences Humaines et Sociales et du Diplôme d’État d’Éducatrice
+                            de Jeunes Enfants (EJE), mon parcours s’est construit à la croisée des sciences humaines, de
+                            la pédagogie, de l’art et de la culture. Cette double formation universitaire et
+                            professionnelle m’a permis de développer une approche globale, sensible et structurée des
+                            relations humaines, attentive aux dynamiques individuelles, collectives et
+                            institutionnelles.
+                        </p>
+
+                        <!-- Image après quatrième paragraphe -->
+                        <div class="mb-6 overflow-hidden">
+                            <img src="/little-girl.jpg" alt="Formation et accompagnement"
+                                class="w-full h-64 md:h-96 object-cover rounded-xl shadow-lg mx-auto" />
                         </div>
 
-                        <!-- Image Right -->
-<div class="order-1 md:order-2 w-full md:w-1/2 overflow-hidden">
-  <img
-    src="/cloud.jpg"
-    alt="Mon parcours professionnel"
-    class="w-full h-64 md:h-full object-cover rounded-xl shadow-lg"
-  />
-</div>
+                        <p class="text-lg text-gray-600 leading-relaxed">
+                            Après plusieurs années d’expérience en accueil collectif et individuel (multi-accueil en
+                            France et en Suisse, relais petite enfance) et en coordination pédagogique de structures,
+                            j’ai acquis une vision transversale des enjeux éducatifs, organisationnels et humains du
+                            secteur.
+                        </p>
+
+                        <p class="text-lg text-gray-600 leading-relaxed">
+                            Parallèlement, j’ai investi le champ de la formation et de la transmission, en intervenant à
+                            l’École nationale des solidarités, de l’encadrement et de l’intervention sociale (ENCEIS)
+                            pour la filière EJE. En tant que coordinatrice pédagogique et responsable d’un organisme de
+                            formation, j’ai conçu des parcours sur mesure, animé des formations et journées
+                            pédagogiques, et accompagné les équipes dans le développement de pratiques cohérentes et de
+                            projets innovants.
+                        </p>
+
+                        <p class="text-lg text-gray-600 leading-relaxed">
+                            Autrice d’articles de réflexion pour la revue nationale Les métiers de la petite enfance
+                            (Elsevier Masson), j’inscris mon accompagnement dans une démarche analytique mêlant
+                            recherche, observation de terrain et pratiques professionnelles.
+                        </p>
+
+                        <p class="text-lg text-gray-600 leading-relaxed">
+                            Aujourd’hui, je mets mon expertise au service des équipes, gestionnaires et institutions à
+                            travers formations sur mesure, groupes d’analyse de la pratique, accompagnement
+                            méthodologique et conseil stratégique, et le développement de projets éducatifs, artistiques
+                            et culturels, pour construire des dispositifs solides et durables, centrés sur la qualité de
+                            l’accueil et le soutien à la parentalité.
+                        </p>
+
                     </div>
                 </div>
+
+
 
                 <!-- Cards Grid -->
                 <div class="grid md:grid-cols-2 gap-8 mb-8">
@@ -123,7 +173,8 @@
                     </div>
 
                 </div>
-                <ImageBanner src="/society-about.png" alt="Ma belle image"  />
+                <ImageBanner src="/society-about.png" alt="Ma belle image" />
+
                 <!-- Full Width Card: Expériences -->
                 <div
                     class="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-shadow duration-300 overflow-hidden">
@@ -180,15 +231,14 @@
                         </div>
                     </div>
                 </div>
-
             </div>
-         
         </section>
-        <PostureRechercheSection image-src="/rando1.png" image-alt="Recherche en petite enfance" /> 
+        <div class="col-span-full h-[4px] bg-[#E0C734] m-[10px] lg:m-[60px]"></div>
+
+        <PostureRechercheSection image-src="/rando1.png" image-alt="Recherche en petite enfance" />
         <div class="text-center mt-2 p-4">
-                <ButtonBaseButtonTlwd label="Envie d'en parler ?" to="/contact"
-                    variant="secondary" />
-            </div>
+            <ButtonBaseButtonTlwd label="Envie d'en parler ?" to="/contact" variant="secondary" />
+        </div>
     </div>
 
 
