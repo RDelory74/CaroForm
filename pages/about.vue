@@ -1,5 +1,5 @@
 <template>
-    <ImageBanner src="/environ-eveil.png" alt="Hero Image" class="!py-0 !rounded-none" />
+    <ImageBanner src="/society-about.png" alt="Hero Image" class="!py-0 !rounded-none" />
     <div class="gap-4">
 
 
@@ -23,7 +23,7 @@
                     <!-- Image après premier paragraphe -->
                     <div class="mb-8 overflow-hidden">
                         <img src="/RandoImg.png" alt="Accompagnement des professionnels"
-                            class="w-full h-64 md:h-96 object-cover rounded-xl shadow-lg mx-auto" />
+                            class="w-50 h-64 md:h-96 object-cover rounded-xl shadow-lg mx-auto" />
                     </div>
 
                     <!-- Suite du texte -->
@@ -173,7 +173,7 @@
                     </div>
 
                 </div>
-                <ImageBanner src="/society-about.png" alt="Ma belle image" />
+                <ImageBanner src="/about-banner-2.png" alt="Ma belle image" />
 
                 <!-- Full Width Card: Expériences -->
                 <div

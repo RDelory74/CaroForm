@@ -6,46 +6,64 @@
         <div class="max-w-5xl mx-auto space-y-12">
             <!-- Card Intro -->
             <CardIntro title="Éveil Artistique et Culturel" subtitle="Un Chemin d’humanisation dès la naissance"
-                image1="/color4.jpg" image2="/eveil-pictur2.png"
+                image1="/color4.jpg"
                 text="L’éveil artistique et culturel n’est pas un « plus » dans la vie d’un enfant : c’est une véritable nourriture intérieure. Dès ses premiers jours, le tout-petit a besoin de voix, de gestes, d’images et de poésie pour entrer en relation avec le monde. Ces expériences sensibles nourrissent sa construction identitaire, sa santé psychique et la qualité du lien parent-enfant." />
             <!-- Card Experiences -->
-            <CardExpe title="Expériences en accueil collectif et individuel"
-                intro="En proposant des moments artistiques adaptés — contes, musique, arts visuels, rencontres sensibles — vous offrez à l’enfant un espace où se tissent confiance, émotion, curiosité et sécurité intérieure."
+            <CardExpe title="Fondements et prestations"
+                intro="Promouvoir une culture vivante, sensible et accessible dès la naissance.
+                Accompagner les acteurs du territoire dans une démarche humaniste et collaborative.
+                "
                 :blocks="[
                     {
-                        icon: '🤝',
-                        title: 'Cultiver le lien humain : au cœur de chaque expérience',
-                        text: 'La santé culturelle place la relation au centre : émotions partagées, beauté, découverte, créativité. Elle permet à l’enfant comme à l’adulte de retrouver un ancrage, une respiration dans un monde parfois trop rapide et déshumanisé. Chaque rencontre artistique devient alors un acte de lien, un moment où l’on se reconnaît et où l’on se reconnecte.'
+                        icon: '',
+                        title: 'Références et cadre d’intervention',
+                        text: ''
                     },
                     {
-                        icon: '🌱',
-                        title: 'Un antidote à la “civilisation mécanique”',
-                        text: 'À l’heure où les écrans et l’efficacité dominent, l’éveil culturel réintroduit ce dont les bébés ont le plus besoin : des présences incarnées, des gestes lents, des histoires partagées, des images et des sons qui ont du sens. La culture devient un espace de respiration, de douceur et de vitalité pour les familles.'
+                        icon: '✨',
+                        title: 'L’éveil artistique et culturel : un levier essentiel du développement du jeune enfant',
+                        text: 'Le rapport de la psychologue et psychanalyste Sophie Marinopoulos, Une stratégie nationale pour la Santé Culturelle (2017), constitue le socle conceptuel de mon approche. Ce document interdisciplinaire — mêlant analyses sociologiques, médicales, culturelles, psychanalytiques et environnementales — met en lumière l’importance de répondre aux besoins symboliques des tout-petits et de leurs parents, en les préservant des dérives consuméristes et du formatage culturel.'
                     },
                     {
-                        icon: '👨‍👩‍👧',
-                        title: 'Le rôle essentiel des parents',
-                        text: 'Les parents sont les premiers artistes de la vie de l’enfant. Leur voix, leurs chansons, leurs récits construisent un bain culturel rassurant et structurant. Mes accompagnements et ateliers soutiennent cette relation et offrent aux familles des moments partagés qui renforcent la complicité, la tendresse et la confiance parentale.'
+                        icon: '🗂️',
+                        title: 'À propos du rapport “Une stratégie nationale pour la Santé Culturelle”',
+                        text: `
+                    Publié en 2017 pour le Ministère de la Culture, ce rapport met en évidence :
+                    • l’importance des expériences artistiques et culturelles dès la naissance ;  
+                    • la nécessité de soutenir la relation parent-enfant par un environnement culturel riche et sensible ;  
+                    • l’enjeu de réduire les inégalités culturelles et sociales dès la petite enfance ;  
+                    • le rôle essentiel des professionnels et des artistes dans la construction d’un cadre bienveillant et humanisant.
+                    `,
                     },
                     {
-                        icon: '🎨',
-                        title: 'Un droit pour tous : réduire les inégalités dès la petite enfance',
-                        text: 'L’accès à la culture est un droit fondamental. Offrir aux enfants — quels que soient leur parcours ou leur milieu — des expériences artistiques variées, des œuvres et des rencontres sensibles, c’est leur permettre de se construire pleinement, d’ouvrir leur regard, de développer leur créativité.'
+                        icon: '🌿',
+                        title: ' Travaux d’Arno Stern : le geste comme langage',
+                        text: 'Les travaux d’Arno Stern, pédagogue et fondateur du Closlieu, soulignent le geste comme une expression première et universelle chez l’enfant. Inscrit dans un cadre sécurisant, libre de toute attente esthétique ou normative, le geste offre à l’enfant un espace pour se relier à ses émotions et à son imaginaire, exprimer sa créativité et son individualité, et entrer en relation avec les autres à travers une forme de communication symbolique et sensible. L’intégration de cette approche dans mes ateliers et projets permet de créer un environnement respectueux du rythme et des besoins intimes de chaque enfant, tout en favorisant l’expression personnelle et l’exploration sensorielle.'
                     },
                     {
-                        icon: '🌈',
-                        title: 'Pour mieux vivre ensemble',
-                        text: 'L’éveil artistique et culturel favorise la mixité, la curiosité et la tolérance. Les ateliers réunissant enfants, parents, artistes et professionnels deviennent des espaces de partage, de joie et de cohésion. Une manière concrète de bâtir une société plus sensible, plus solidaire et plus vivante.'
+                        icon: '',
+                        title: 'Mes prestations',
+                        text: ''
                     },
                     {
-                        icon: '🎭',
-                        title: 'Les artistes : des passeurs d’humanité',
-                        text: 'Les artistes occupent une place essentielle dans ce processus. Leur présence dans les crèches, les lieux d’accueil ou les structures de soins ouvre des espaces d’émotion, de sensibilité et de rencontre. Ils invitent à voir autrement, à ressentir profondément, à imaginer librement. Ils sont passeurs de sens et d’humanité, travaillant main dans la main avec les équipes éducatives, sociales et médicales pour créer des expériences esthétiques à la portée de tous.'
+                        icon: '🎓',
+                        title: 'Accompagnement à la réflexion et à la conduite de projets en Éveil et Éducation Artistique et Culturel (EAC)',
+                        text: 'Ces accompagnements s’adressent aux collectivités, institutions, établissements d’accueil du jeune enfant (EAJE), structures culturelles, associations et centres sociaux. Ils ont pour objectif d’élaborer des projets d’Éducation Artistique et Culturelle (EAC) cohérents, sensibles et adaptés aux réalités du territoire, d’articuler les enjeux éducatifs, culturels, sociaux et de santé, de développer une stratégie d’accueil et de médiation culturelle dès la naissance, et de favoriser un environnement soutenant le lien parent-enfant. Les modalités d’intervention reposent sur un diagnostic partagé, l’élaboration de projets sur mesure, la mise à disposition de méthodologies et d’outils adaptés, l’accompagnement des équipes dans la mise en œuvre, ainsi qu’un suivi et une évaluation des actions engagées.'
+                    },
+                    {
+                        icon: '🧩',
+                        title: 'Formations professionnelles',
+                        text: 'Ces formations s’adressent aux professionnels de la petite enfance, de la culture, du social, de l’éducation et de la santé. Elles abordent les fondements et les enjeux de l’éveil artistique et culturel, la compréhension de la notion de santé culturelle, l’intégration des arts et de la sensibilité dans le quotidien des structures, ainsi que l’analyse des pratiques professionnelles afin d’ajuster les postures et de développer la créativité. Les sessions de formation articulent apports théoriques, mises en pratique, temps d’expérimentation et ressources méthodologiques, dans une approche favorisant la réflexion et l’appropriation des contenus par les participants.'
+                    },
+                    {
+                        icon: '💬',
+                        title: 'Temps d’échanges, conférences et débats',
+                        text: 'Ces actions ont pour finalité de sensibiliser aux apports de l’Éducation Artistique et Culturelle (EAC) et à la notion de santé culturelle, de nourrir une réflexion partagée entre professionnels, parents et partenaires institutionnels, et d’ouvrir des espaces de dialogue autour des enjeux éducatifs, culturels et sociétaux contemporains. Elles prennent la forme de conférences publiques, de tables rondes, d’interventions thématiques ou de rencontres interprofessionnelles, favorisant la circulation des points de vue et la co-construction des réflexions.'
                     }
                 ]" :footer="[
-                    'À travers de mes actions, j’accompagne les professionnels, les structures et les familles dans la mise en place d’un véritable écosystème culturel : chaleureux, sensible, accessible dès la naissance, et profondément centré sur la relation.',
-                ]" />
-<ImageBanner src="/inspiring-child.png" alt="Ma belle image"  />
+    'Créer des environnements où chaque enfant peut s’éveiller, imaginer et rencontrer l’autre à travers la beauté, le geste et le sensible.',
+]" />
+            <ImageBanner src="/inspiring-child.png" alt="Ma belle image" />
 
             <!-- Axe Cards -->
             <div class="grid gap-8 md:grid-cols-2">
@@ -62,14 +80,13 @@
                     imageSrc="/environ-eveil.png" :isVisible="true" :delay="600" />
             </div>
         </div>
-        
+
     </div>
-    <ParallaxSection image="/artherapi.png" title="ArtTherapie"
-            subtitle="Un espace pour penser le travail autrement"
-            description="L’art-thérapie offre un espace sécurisé où chacun peut exprimer ses émotions et sa créativité à travers différentes formes artistiques : dessin, peinture, modelage ou collage. Cette approche permet de libérer les tensions, développer la confiance en soi, stimuler l’imagination et renforcer le bien-être mental et émotionnel. Elle favorise également l’écoute, la réflexion personnelle et la cohésion au sein des groupes, tout en respectant le rythme et les besoins de chaque participant." />
-            <div class="flex justify-center w-full">
-            <ButtonBaseButtonTlwd label="Plus d'informations ?" to="/contact" variant="secondary" class=" my-6" />
-          </div>
+    <ParallaxSection image="/artherapi.png" title="ArtTherapie" subtitle="Un espace pour penser le travail autrement"
+        description="L’art-thérapie offre un espace sécurisé où chacun peut exprimer ses émotions et sa créativité à travers différentes formes artistiques : dessin, peinture, modelage ou collage. Cette approche permet de libérer les tensions, développer la confiance en soi, stimuler l’imagination et renforcer le bien-être mental et émotionnel. Elle favorise également l’écoute, la réflexion personnelle et la cohésion au sein des groupes, tout en respectant le rythme et les besoins de chaque participant." />
+    <div class="flex justify-center w-full">
+        <ButtonBaseButtonTlwd label="Plus d'informations ?" to="/contact" variant="secondary" class=" my-6" />
+    </div>
 </template>
 
 <script setup lang="ts">

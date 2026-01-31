@@ -171,8 +171,15 @@
 
   <div class="col-span-full h-[4px] bg-[#E0C734] m-[10px] lg:m-[60px]"></div>
 
+  <div class="mb-10 px-10">
+        <h2 class="text-3xl md:text-4xl font-semibold text-gray-900">
+          Les Thematiques de formations
+        </h2>
+        <div class="mt-3 w-20 h-1 bg-[#E0C734]"></div>
+      </div>
   <!-- Formations Cards Grid -->
   <div class="grid md:grid-cols-2 gap-8 mb-8 p-4">
+
 
     <!-- Card 1 -->
     <div class="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-shadow duration-300 overflow-hidden">

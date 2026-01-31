@@ -5,7 +5,7 @@
         <div>
           <h3 class="text-white tracking-wider text-lg font-semibold mb-4">Caroline Delory</h3>
           <ul class="space-y-2 text-sm text-white">
-            <li>Email : <a href="mailto:carolinecaballe@gmail.com">carolinecaballe@gmail.com</a></li>
+            <li>Email : <a href="mailto:caroline.delory.formation@gmail.com">caroline.delory.formation@gmail.com</a></li>
             <li><a href="tel:0617281385">Téléphone : +33 6 17 28 13 85</a></li>
             <li>Localité : Haute Savoie, Savoie, Genevois</li>
           </ul>

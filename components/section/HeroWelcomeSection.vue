@@ -42,7 +42,7 @@
               isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
             ]"
           >
-          Observer comprendre accompagner 
+          Observer Comprendre Accompagner 
           </h1>
           <p 
             :class="[
