@@ -22,7 +22,7 @@
 
                     <!-- Image après premier paragraphe -->
                     <div class="mb-8 overflow-hidden">
-                        <img src="/RandoImg.png" alt="Accompagnement des professionnels"
+                        <img src="/Caro.png" alt="Accompagnement des professionnels"
                             class="w-50 h-64 md:h-96 object-cover rounded-xl shadow-lg mx-auto" />
                     </div>
 
