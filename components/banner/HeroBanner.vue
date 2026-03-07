@@ -17,7 +17,7 @@
         '-translate-x-full opacity-0': scrolledDown
       }"
     >
-      Cultivons <span class="text-secondary">ensemble le</span> <span class="text-primary"> sens </span> de nos pratiques
+    <span class="text-accent"> Cultivons</span> <span class="text-secondary">ensemble le</span> <span class="text-primary"> sens </span> <span class="text-accent">de nos</span>  <span class="text-primary">pratiques</span> 
     </h1>
   </section>
 </template>
