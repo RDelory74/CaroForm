@@ -1,10 +1,10 @@
 <template>
-    <div class="border-l-4 border-primary pl-6">
-      <h4 class="text-xl font-bold text-gray-900 mb-2 flex items-center gap-2">
+    <div class="pl-6">
+      <h4 class="text-2xl font-bold text-gray-900 mb-2 flex items-center gap-2 pl-6">
         <span v-if="icon" class="w-6 h-6 flex-shrink-0">{{ icon }}</span>
         {{ title }}
       </h4>
-      <p class="text-gray-700">{{ text }}</p>
+      <p class="text-gray-700 border-l-4 border-accent pl-6">{{ text }}</p>
     </div>
   </template>
   

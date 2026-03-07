@@ -52,6 +52,6 @@
   }
   
   const props = defineProps<Props>()
-  const { title, intro, blocks, footer, headerBgColor = 'bg-secondary', headerTextColor = 'text-primary' } = props
+  const { title, intro, blocks, footer, headerBgColor = 'bg-secondary', headerTextColor = 'text-black' } = props
   </script>
   

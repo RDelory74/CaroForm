@@ -60,7 +60,7 @@
     </div>
   </section>
 
-  <div class="col-span-full h-[4px] bg-secondary m-[10px] lg:m-[60px]"></div>
+  <div class="col-span-full h-[4px] bg-accent m-[10px] lg:m-[60px]"></div>
 
   <!--Section APP-->
   <section class="py-16 bg-white">
@@ -127,7 +127,7 @@
     </div>
   </section>
 
-  <div class="col-span-full h-[4px] bg-secondary m-[10px] lg:m-[60px]"></div>
+  <div class="col-span-full h-[4px] bg-accent m-[10px] lg:m-[60px]"></div>
 
   <!--Section Projet peda-->
   <section class="py-16 bg-white">
@@ -169,7 +169,7 @@
     </div>
   </section>
 
-  <div class="col-span-full h-[4px] bg-secondary m-[10px] lg:m-[60px]"></div>
+  <div class="col-span-full h-[4px] bg-accent m-[10px] lg:m-[60px]"></div>
 
   <div class="mb-10 px-10">
         <h2 class="text-3xl md:text-4xl font-semibold text-gray-900">
@@ -184,7 +184,7 @@
     <!-- Card 1 -->
     <div class="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-shadow duration-300 overflow-hidden">
       <div class="bg-secondary p-6">
-        <h3 class="text-2xl md:text-2xl font-bold text-primary flex items-center gap-3">
+        <h3 class="text-2xl md:text-2xl font-bold text-black flex items-center gap-3">
           🌱 Accueil et familiarisation
         </h3>
       </div>
@@ -213,7 +213,7 @@
     <!-- Card 2 -->
     <div class="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-shadow duration-300 overflow-hidden">
       <div class="bg-secondary p-6">
-        <h3 class="text-2xl md:text-2xl font-bold text-primary flex items-center gap-3">
+        <h3 class="text-2xl md:text-2xl font-bold text-black flex items-center gap-3">
           🤸‍♂️ Motricité libre et éveil psychomoteur
         </h3>
       </div>
@@ -242,7 +242,7 @@
     <!-- Card 3 -->
     <div class="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-shadow duration-300 overflow-hidden">
       <div class="bg-secondary p-6">
-        <h3 class="text-2xl md:text-2xl font-bold text-primary flex items-center gap-3">
+        <h3 class="text-2xl md:text-2xl font-bold text-black flex items-center gap-3">
           🎲 Jeu, exploration et activité spontanée
         </h3>
       </div>
@@ -266,7 +266,7 @@
     <!-- Card 4 -->
     <div class="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-shadow duration-300 overflow-hidden">
       <div class="bg-secondary p-6">
-        <h3 class="text-2xl md:text-2xl font-bold text-primary flex items-center gap-3">
+        <h3 class="text-2xl md:text-2xl font-bold text-black flex items-center gap-3">
           🤝 Interactions sociales et conflits
         </h3>
       </div>
@@ -294,7 +294,7 @@
     <!-- Card 5 -->
     <div class="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-shadow duration-300 overflow-hidden">
       <div class="bg-secondary p-6">
-        <h3 class="text-2xl md:text-2xl font-bold text-primary flex items-center gap-3">
+        <h3 class="text-2xl md:text-2xl font-bold text-black flex items-center gap-3">
           👥 Travail d’équipe et cohésion
         </h3>
       </div>
@@ -322,7 +322,7 @@
     <!-- Card 6 -->
     <div class="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-shadow duration-300 overflow-hidden">
       <div class="bg-secondary p-6">
-        <h3 class="text-2xl md:text-2xl font-bold text-primary flex items-center gap-3">
+        <h3 class="text-2xl md:text-2xl font-bold text-black flex items-center gap-3">
           🏡 Relations avec les familles et co-éducation
         </h3>
       </div>
@@ -351,7 +351,7 @@
     <div
       class="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-shadow duration-300 overflow-hidden md:col-span-2">
       <div class="bg-secondary p-6">
-        <h3 class="text-2xl md:text-2xl font-bold text-primary flex items-center gap-3">
+        <h3 class="text-2xl md:text-2xl font-bold text-black flex items-center gap-3">
           🔹 Altérité et multiculturalité
         </h3>
       </div>
