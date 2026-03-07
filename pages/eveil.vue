@@ -36,11 +36,6 @@
                     `,
                     },
                     {
-                        icon: '🌿',
-                        title: ' Travaux d’Arno Stern : le geste comme langage',
-                        text: 'Les travaux d’Arno Stern, pédagogue et fondateur du Closlieu, soulignent le geste comme une expression première et universelle chez l’enfant. Inscrit dans un cadre sécurisant, libre de toute attente esthétique ou normative, le geste offre à l’enfant un espace pour se relier à ses émotions et à son imaginaire, exprimer sa créativité et son individualité, et entrer en relation avec les autres à travers une forme de communication symbolique et sensible. L’intégration de cette approche dans mes ateliers et projets permet de créer un environnement respectueux du rythme et des besoins intimes de chaque enfant, tout en favorisant l’expression personnelle et l’exploration sensorielle.'
-                    },
-                    {
                         icon: '',
                         title: 'Mes prestations',
                         text: ''

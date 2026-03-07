@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Theme Tailwind */
+@theme {
+    --color-primary: #1F7A8C;
+    --color-secondary: #E0C734;
+    --color-accent: #B9156C;
+  }
+
+
 body {
     font-family: "Calibri Light", "Calibri", sans-serif;
 
