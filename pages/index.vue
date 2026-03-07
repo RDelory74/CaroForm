@@ -18,7 +18,7 @@
 
     <!-- Titre -->
     <div class="bg-secondary p-6 rounded-xl shadow-md mb-10">
-      <h3 class="text-2xl md:text-3xl font-bold text-primary text-center">
+      <h3 class="text-2xl md:text-3xl font-bold text-center">
         Pourquoi faire appel à mes services ?
       </h3>
     </div>

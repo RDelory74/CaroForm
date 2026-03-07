@@ -5,13 +5,12 @@ const props = defineProps({
   variant: { 
     type: String, 
     default: 'primary',
-    validator: (value) => ['primary', 'primary', 'success', 'danger'].includes(value)
+    validator: (value) => ['primary', 'success', 'danger'].includes(value)
   }
 })
 
 const variantClasses = {
-  primary: 'bg-[#6DA48F80] text-white hover:bg-[#6DA48F80]',
-  primary: 'bg-primary text-white tracking-widest hover:bg-gray-500',
+  primary: 'bg-accent text-white tracking-widest hover:bg-gray-500',
   success: 'bg-green-600 text-black hover:bg-green-500',
   danger: 'bg-red-600 text-white hover:bg-red-500'
 }
