@@ -20,7 +20,7 @@
       </p>
       <img src="/FormAPP.png" alt="Formation APP" class="w-full rounded-lg shadow-md mb-4">
       <div class="flex justify-center">
-        <ButtonBaseButtonTlwd label="Plus d'informations ?" to="/contact" variant="secondary" />
+        <ButtonBaseButtonTlwd label="Plus d'informations ?" to="/contact" variant="primary" />
       </div>
     </div>
 
@@ -87,7 +87,7 @@ Mon rôle est d’ouvrir un espace où chacun peut penser son travail autrement,
           <img src="/FormAPP.png" alt="Formation APP" class="w-full rounded-lg shadow-md">
 
           <div class="flex justify-center w-full">
-            <ButtonBaseButtonTlwd label="Plus d'informations ?" to="/contact" variant="secondary" />
+            <ButtonBaseButtonTlwd label="Plus d'informations ?" to="/contact" variant="primary" />
           </div>
         </div>
 
@@ -107,7 +107,7 @@ Mon rôle est d’ouvrir un espace où chacun peut penser son travail autrement,
     </section>
 
 
-    <div class="col-span-full h-[4px] bg-[#E0C734] m-[10px] lg:m-[60px]"></div>
+    <div class="col-span-full h-[4px] bg-secondary m-[10px] lg:m-[60px]"></div>
     <!-- Conférence -->
     <section class="mb-8 md:p-6 p-2">
       <div class="flex flex-col lg:flex-row items-start gap-8 ">
@@ -125,7 +125,7 @@ Mon rôle est d’ouvrir un espace où chacun peut penser son travail autrement,
         </div>
       </div>
     </section>
-    <div class="col-span-full h-[4px] bg-[#E0C734] m-[10px] lg:m-[60px]"></div>
+    <div class="col-span-full h-[4px] bg-secondary m-[10px] lg:m-[60px]"></div>
     <!-- Analyse de pratiques -->
     <section class="mb-8 md:p-6 p-2">
       <div class="flex flex-col lg:flex-row items-start gap-8">
@@ -145,7 +145,7 @@ Mon rôle est d’ouvrir un espace où chacun peut penser son travail autrement,
       </div>
     </section>
     <div class="text-center mt-2 p-4">
-      <ButtonBaseButtonTlwd label="Contactez-moi pour plus d'informations" to="/contact" variant="secondary" />
+      <ButtonBaseButtonTlwd label="Contactez-moi pour plus d'informations" to="/contact" variant="primary" />
     </div>
     </div>
 

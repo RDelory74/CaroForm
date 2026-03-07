@@ -1,5 +1,5 @@
 <template>
-    <div class="border-l-4 border-[#223B81] pl-6">
+    <div class="border-l-4 border-primary pl-6">
       <h4 class="text-xl font-bold text-gray-900 mb-2 flex items-center gap-2">
         <span v-if="icon" class="w-6 h-6 flex-shrink-0">{{ icon }}</span>
         {{ title }}

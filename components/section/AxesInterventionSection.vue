@@ -153,7 +153,7 @@
         isButtonVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
       ]"
     >
-      <ButtonBaseButtonTlwd label="Me contacter" to="/contact" variant="secondary" />
+      <ButtonBaseButtonTlwd label="Me contacter" to="/contact" variant="primary" />
     </div>
   </section>
 </template>

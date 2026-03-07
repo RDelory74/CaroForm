@@ -13,7 +13,7 @@
 
         <!-- Pour qui -->
         <div class="grid md:grid-cols-3 gap-6 items-start">
-          <h3 class="text-lg font-medium text-[#223B81] md:col-span-1">
+          <h3 class="text-lg font-medium text-primary md:col-span-1">
             Pour qui
           </h3>
           <p class="text-gray-700 leading-relaxed md:col-span-2">
@@ -24,7 +24,7 @@
 
         <!-- Formats -->
         <div class="grid md:grid-cols-3 gap-6 items-start">
-          <h3 class="text-lg font-medium text-[#223B81] md:col-span-1">
+          <h3 class="text-lg font-medium text-primary md:col-span-1">
             Formats proposés
           </h3>
           <ul class="md:col-span-2 space-y-2 text-gray-700 leading-relaxed list-disc list-inside">
@@ -36,7 +36,7 @@
 
         <!-- Adaptation -->
         <div class="grid md:grid-cols-3 gap-6 items-start">
-          <h3 class="text-lg font-medium text-[#223B81] md:col-span-1">
+          <h3 class="text-lg font-medium text-primary md:col-span-1">
             Adaptation aux contextes
           </h3>
           <p class="text-gray-700 leading-relaxed md:col-span-2">
@@ -47,7 +47,7 @@
 
         <!-- Objectif -->
         <div class="grid md:grid-cols-3 gap-6 items-start">
-          <h3 class="text-lg font-medium text-[#223B81] md:col-span-1">
+          <h3 class="text-lg font-medium text-primary md:col-span-1">
             Objectif de chaque session
           </h3>
           <p class="text-gray-700 leading-relaxed md:col-span-2">
@@ -60,7 +60,7 @@
     </div>
   </section>
 
-  <div class="col-span-full h-[4px] bg-[#E0C734] m-[10px] lg:m-[60px]"></div>
+  <div class="col-span-full h-[4px] bg-secondary m-[10px] lg:m-[60px]"></div>
 
   <!--Section APP-->
   <section class="py-16 bg-white">
@@ -72,7 +72,7 @@
           Analyse des Pratiques Professionnelles (APP)
 
         </h2>
-        <div class="mt-3 w-20 h-1 bg-[#E0C734]"></div>
+        <div class="mt-3 w-20 h-1 bg-secondary"></div>
       </div>
 
       <!-- Intro -->
@@ -127,7 +127,7 @@
     </div>
   </section>
 
-  <div class="col-span-full h-[4px] bg-[#E0C734] m-[10px] lg:m-[60px]"></div>
+  <div class="col-span-full h-[4px] bg-secondary m-[10px] lg:m-[60px]"></div>
 
   <!--Section Projet peda-->
   <section class="py-16 bg-white">
@@ -138,7 +138,7 @@
         <h2 class="text-3xl md:text-4xl font-semibold text-gray-900">
           Projets éducatifs, pédagogiques & démarche qualité
         </h2>
-        <div class="mt-3 w-20 h-1 bg-[#E0C734]"></div>
+        <div class="mt-3 w-20 h-1 bg-secondary"></div>
       </div>
 
       <!-- Description -->
@@ -154,7 +154,7 @@
       <div class="space-y-10">
 
         <div class="grid md:grid-cols-3 gap-6 items-start">
-          <h3 class="text-lg font-medium text-[#223B81] md:col-span-1">
+          <h3 class="text-lg font-medium text-primary md:col-span-1">
             Objectifs
           </h3>
           <ul class="md:col-span-2 space-y-3 text-gray-700 leading-relaxed list-disc list-inside">
@@ -169,13 +169,13 @@
     </div>
   </section>
 
-  <div class="col-span-full h-[4px] bg-[#E0C734] m-[10px] lg:m-[60px]"></div>
+  <div class="col-span-full h-[4px] bg-secondary m-[10px] lg:m-[60px]"></div>
 
   <div class="mb-10 px-10">
         <h2 class="text-3xl md:text-4xl font-semibold text-gray-900">
           Les Thematiques de formations
         </h2>
-        <div class="mt-3 w-20 h-1 bg-[#E0C734]"></div>
+        <div class="mt-3 w-20 h-1 bg-secondary"></div>
       </div>
   <!-- Formations Cards Grid -->
   <div class="grid md:grid-cols-2 gap-8 mb-8 p-4">
@@ -183,8 +183,8 @@
 
     <!-- Card 1 -->
     <div class="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-shadow duration-300 overflow-hidden">
-      <div class="bg-[#E0C734] p-6">
-        <h3 class="text-2xl md:text-2xl font-bold text-[#223B81] flex items-center gap-3">
+      <div class="bg-secondary p-6">
+        <h3 class="text-2xl md:text-2xl font-bold text-primary flex items-center gap-3">
           🌱 Accueil et familiarisation
         </h3>
       </div>
@@ -212,8 +212,8 @@
 
     <!-- Card 2 -->
     <div class="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-shadow duration-300 overflow-hidden">
-      <div class="bg-[#E0C734] p-6">
-        <h3 class="text-2xl md:text-2xl font-bold text-[#223B81] flex items-center gap-3">
+      <div class="bg-secondary p-6">
+        <h3 class="text-2xl md:text-2xl font-bold text-primary flex items-center gap-3">
           🤸‍♂️ Motricité libre et éveil psychomoteur
         </h3>
       </div>
@@ -241,8 +241,8 @@
 
     <!-- Card 3 -->
     <div class="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-shadow duration-300 overflow-hidden">
-      <div class="bg-[#E0C734] p-6">
-        <h3 class="text-2xl md:text-2xl font-bold text-[#223B81] flex items-center gap-3">
+      <div class="bg-secondary p-6">
+        <h3 class="text-2xl md:text-2xl font-bold text-primary flex items-center gap-3">
           🎲 Jeu, exploration et activité spontanée
         </h3>
       </div>
@@ -265,8 +265,8 @@
 
     <!-- Card 4 -->
     <div class="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-shadow duration-300 overflow-hidden">
-      <div class="bg-[#E0C734] p-6">
-        <h3 class="text-2xl md:text-2xl font-bold text-[#223B81] flex items-center gap-3">
+      <div class="bg-secondary p-6">
+        <h3 class="text-2xl md:text-2xl font-bold text-primary flex items-center gap-3">
           🤝 Interactions sociales et conflits
         </h3>
       </div>
@@ -293,8 +293,8 @@
 
     <!-- Card 5 -->
     <div class="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-shadow duration-300 overflow-hidden">
-      <div class="bg-[#E0C734] p-6">
-        <h3 class="text-2xl md:text-2xl font-bold text-[#223B81] flex items-center gap-3">
+      <div class="bg-secondary p-6">
+        <h3 class="text-2xl md:text-2xl font-bold text-primary flex items-center gap-3">
           👥 Travail d’équipe et cohésion
         </h3>
       </div>
@@ -321,8 +321,8 @@
 
     <!-- Card 6 -->
     <div class="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-shadow duration-300 overflow-hidden">
-      <div class="bg-[#E0C734] p-6">
-        <h3 class="text-2xl md:text-2xl font-bold text-[#223B81] flex items-center gap-3">
+      <div class="bg-secondary p-6">
+        <h3 class="text-2xl md:text-2xl font-bold text-primary flex items-center gap-3">
           🏡 Relations avec les familles et co-éducation
         </h3>
       </div>
@@ -350,8 +350,8 @@
     <!-- Card 7 -->
     <div
       class="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-shadow duration-300 overflow-hidden md:col-span-2">
-      <div class="bg-[#E0C734] p-6">
-        <h3 class="text-2xl md:text-2xl font-bold text-[#223B81] flex items-center gap-3">
+      <div class="bg-secondary p-6">
+        <h3 class="text-2xl md:text-2xl font-bold text-primary flex items-center gap-3">
           🔹 Altérité et multiculturalité
         </h3>
       </div>
@@ -382,7 +382,7 @@
 
 
   <div class="text-center  p-6">
-    <ButtonBaseButtonTlwd label="Contactez-moi pour plus d'informations" to="/contact" variant="secondary" />
+    <ButtonBaseButtonTlwd label="Contactez-moi pour plus d'informations" to="/contact" variant="primary" />
   </div>
 
   <ImageBanner src="/FormAPP.png" alt="Ma belle image" class="!py-0" />

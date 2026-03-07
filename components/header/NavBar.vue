@@ -1,6 +1,6 @@
 <template>
   <header
-    class="bg-[#223B81] text-white w-full fixed top-0 left-0 z-40
+    class="bg-primary text-white w-full fixed top-0 left-0 z-40
            transition-transform duration-300 ease-in-out"
     :class="isVisible ? 'translate-y-0' : '-translate-y-full'"
   >

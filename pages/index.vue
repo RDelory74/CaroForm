@@ -17,8 +17,8 @@
   <div class="max-w-6xl mx-auto px-6">
 
     <!-- Titre -->
-    <div class="bg-[#E0C734] p-6 rounded-xl shadow-md mb-10">
-      <h3 class="text-2xl md:text-3xl font-bold text-[#223B81] text-center">
+    <div class="bg-secondary p-6 rounded-xl shadow-md mb-10">
+      <h3 class="text-2xl md:text-3xl font-bold text-primary text-center">
         Pourquoi faire appel à mes services ?
       </h3>
     </div>
@@ -28,7 +28,7 @@
 
       <!-- Gestionnaires -->
       <div class="bg-white rounded-xl shadow-lg p-6 border border-gray-100 hover:shadow-xl transition">
-        <h4 class="text-xl font-semibold text-[#223B81] mb-4">
+        <h4 class="text-xl font-semibold text-primary mb-4">
           Pour les gestionnaires et directions
         </h4>
         <ul class="space-y-3 text-gray-700 text-sm md:text-base leading-relaxed">
@@ -40,7 +40,7 @@
 
       <!-- Équipes -->
       <div class="bg-white rounded-xl shadow-lg p-6 border border-gray-100 hover:shadow-xl transition">
-        <h4 class="text-xl font-semibold text-[#223B81] mb-4">
+        <h4 class="text-xl font-semibold text-primary mb-4">
           Pour les équipes professionnelles
         </h4>
         <ul class="space-y-3 text-gray-700 text-sm md:text-base leading-relaxed">
@@ -52,7 +52,7 @@
 
       <!-- Enfants & familles -->
       <div class="bg-white rounded-xl shadow-lg p-6 border border-gray-100 hover:shadow-xl transition">
-        <h4 class="text-xl font-semibold text-[#223B81] mb-4">
+        <h4 class="text-xl font-semibold text-primary mb-4">
           Pour les enfants et leurs familles
         </h4>
         <ul class="space-y-3 text-gray-700 text-sm md:text-base leading-relaxed">

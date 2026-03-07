@@ -1,5 +1,5 @@
 <template>
-  <footer class="bg-[#223B81] text-white px-6 py-10"> <!-- #223B81 /#6DA48F80-->
+  <footer class="bg-primary text-white px-6 py-10"> <!-- #223B81 /#6DA48F80-->
     <div class="max-w-7xl mx-auto flex flex-col md:flex-row md:justify-between md:items-start gap-10">
       <div class="flex flex-col md:flex-row gap-10 flex-1">
         <div>
@@ -38,7 +38,7 @@
         <img src="/logoCaro.png" alt="Logo" class="h-24 object-contain rounded-full" />
       </div>
     </div>
-    <div class="border-t border-[#E0C734] mt-10 pt-6 text-sm text-[#E0C734] text-center">
+    <div class="border-t border-secondary mt-10 pt-6 text-sm text-secondary text-center">
       © {{ new Date().getFullYear() }} CaroForm. Tous droits réservés.
     </div>
 

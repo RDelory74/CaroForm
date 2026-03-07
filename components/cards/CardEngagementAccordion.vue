@@ -28,7 +28,7 @@
             >
               <!-- Header -->
               <button
-                class="w-full flex justify-between items-center py-4 text-left font-semibold text-gray-900 hover:text-[#223B81] transition"
+                class="w-full flex justify-between items-center py-4 text-left font-semibold text-gray-900 hover:text-primary transition"
                 @click="toggle(index)"
                 :aria-expanded="openIndex === index"
               >
