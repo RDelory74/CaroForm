@@ -22,7 +22,7 @@
           {{ title }}
         </h2>
   
-        <h3 class="text-xl md:text-2xl text-[#E0C734] font-semibold">
+        <h3 class="text-xl md:text-2xl text-secondary font-semibold">
           {{ subtitle }}
         </h3>
   

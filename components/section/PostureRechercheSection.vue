@@ -17,32 +17,32 @@
           
           <!-- Left: Researchers List -->
           <div class="space-y-6">
-            <div class="border-l-4 border-[#E0C734] pl-6 py-2 hover:bg-indigo-50 transition-colors duration-200">
+            <div class="border-l-4 border-secondary pl-6 py-2 hover:bg-indigo-50 transition-colors duration-200">
               <h3 class="text-xl font-bold text-gray-900 mb-1">Irène Théry</h3>
               <p class="text-gray-600">Transformations sociales de la famille et liens parent-enfant</p>
             </div>
   
-            <div class="border-l-4 border-[#E0C734] pl-6 py-2 hover:bg-indigo-50 transition-colors duration-200">
+            <div class="border-l-4 border-secondary pl-6 py-2 hover:bg-indigo-50 transition-colors duration-200">
               <h3 class="text-xl font-bold text-gray-900 mb-1">Pascale Molinier</h3>
               <p class="text-gray-600">Travail du Care et reconnaissance du travail relationnel</p>
             </div>
   
-            <div class="border-l-4 border-[#E0C734] pl-6 py-2 hover:bg-indigo-50 transition-colors duration-200">
+            <div class="border-l-4 border-secondary pl-6 py-2 hover:bg-indigo-50 transition-colors duration-200">
               <h3 class="text-xl font-bold text-gray-900 mb-1">Catherine Sellenet</h3>
               <p class="text-gray-600">Approche systémique de la parentalité et de la coéducation</p>
             </div>
   
-            <div class="border-l-4 border-[#E0C734] pl-6 py-2 hover:bg-indigo-50 transition-colors duration-200">
+            <div class="border-l-4 border-secondary pl-6 py-2 hover:bg-indigo-50 transition-colors duration-200">
               <h3 class="text-xl font-bold text-gray-900 mb-1">Sylviane Giampino</h3>
               <p class="text-gray-600">Charte Nationale du Jeune Enfant - CNAJE et Référentiel Petite Enfance</p>
             </div>
   
-            <div class="border-l-4 border-[#E0C734] pl-6 py-2 hover:bg-indigo-50 transition-colors duration-200">
+            <div class="border-l-4 border-secondary pl-6 py-2 hover:bg-indigo-50 transition-colors duration-200">
               <h3 class="text-xl font-bold text-gray-900 mb-1">Sophie Marinopoulos</h3>
               <p class="text-gray-600">Santé culturelle et éveil artistique et culturel</p>
             </div>
   
-            <div class="border-l-4 border-[#E0C734] pl-6 py-2 hover:bg-indigo-50 transition-colors duration-200">
+            <div class="border-l-4 border-secondary pl-6 py-2 hover:bg-indigo-50 transition-colors duration-200">
               <h3 class="text-xl font-bold text-gray-900 mb-1">Michel Vandenbroeck</h3>
               <p class="text-gray-600">Qualité éducative, interactions enfants-professionnels et impact sur le développement de l'enfant</p>
             </div>
