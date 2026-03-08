@@ -8,7 +8,7 @@
         <div 
           ref="imageRef"
           :class="[
-            'order-2 lg:order-1 transition-all duration-1000 ease-out',
+            'order-2 lg:order-1 transition-all duration-800 ease-out',
             isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-20'
           ]"
         >
