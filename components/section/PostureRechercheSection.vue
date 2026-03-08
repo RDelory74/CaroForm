@@ -19,32 +19,32 @@
           <div class="space-y-6">
             <div class="border-l-4 border-secondary pl-6 py-2 hover:bg-indigo-50 transition-colors duration-200">
               <h3 class="text-xl font-bold text-gray-900 mb-1">Irène Théry</h3>
-              <p class="text-gray-600">Transformations sociales de la famille et liens parent-enfant</p>
+              <p class="text-gray-600">Sa réflexion sur la famille et les liens de filiation nourrit ma compréhension des transformations sociales et symboliques des relations parent-enfant.</p>
             </div>
   
             <div class="border-l-4 border-secondary pl-6 py-2 hover:bg-indigo-50 transition-colors duration-200">
               <h3 class="text-xl font-bold text-gray-900 mb-1">Pascale Molinier</h3>
-              <p class="text-gray-600">Travail du Care et reconnaissance du travail relationnel</p>
+              <p class="text-gray-600">Sa pensée sur le travail du care met en lumière la reconnaissance du travail relationnel et émotionnel dans les métiers du lien.</p>
             </div>
   
             <div class="border-l-4 border-secondary pl-6 py-2 hover:bg-indigo-50 transition-colors duration-200">
               <h3 class="text-xl font-bold text-gray-900 mb-1">Catherine Sellenet</h3>
-              <p class="text-gray-600">Approche systémique de la parentalité et de la coéducation</p>
+              <p class="text-gray-600">Son approche systémique de la petite enfance, de la parentalité et de la coéducation inspire ma manière d’accompagner les professionnels et les familles.</p>
             </div>
   
             <div class="border-l-4 border-secondary pl-6 py-2 hover:bg-indigo-50 transition-colors duration-200">
-              <h3 class="text-xl font-bold text-gray-900 mb-1">Sylviane Giampino</h3>
-              <p class="text-gray-600">Charte Nationale du Jeune Enfant - CNAJE et Référentiel Petite Enfance</p>
+              <h3 class="text-xl font-bold text-gray-900 mb-1">Arno Stern</h3>
+              <p class="text-gray-600">Considère la création artistique comme une expression spontanée et universelle de l’être humain. À travers le dispositif du Closlieu, il propose un espace protégé de création libre, sans jugement ni interprétation. Son travail met en avant la liberté d’expression, la confiance dans le geste créatif et le développement de la personne par l’acte artistique.</p>
             </div>
   
             <div class="border-l-4 border-secondary pl-6 py-2 hover:bg-indigo-50 transition-colors duration-200">
               <h3 class="text-xl font-bold text-gray-900 mb-1">Sophie Marinopoulos</h3>
-              <p class="text-gray-600">Santé culturelle et éveil artistique et culturel</p>
+              <p class="text-gray-600">Sur le principe de santé culturelle et l’importance de l’éveil artistique et culturel dès le plus jeune âge.</p>
             </div>
   
             <div class="border-l-4 border-secondary pl-6 py-2 hover:bg-indigo-50 transition-colors duration-200">
-              <h3 class="text-xl font-bold text-gray-900 mb-1">Michel Vandenbroeck</h3>
-              <p class="text-gray-600">Qualité éducative, interactions enfants-professionnels et impact sur le développement de l'enfant</p>
+              <h3 class="text-xl font-bold text-gray-900 mb-1">Cynthia Fleury et Antoine Fenoglio</h3>
+              <p class="text-gray-600">Pour l’approche autour du design du care, pratique éthique et politique du « prendre soin ». Penser des environnements et des organisations attentifs à la vulnérabilité humaine. Son objectif est de restaurer la capacité d’agir et de renforcer la dignité des personnes.</p>
             </div>
           </div>
   

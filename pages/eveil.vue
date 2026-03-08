@@ -78,7 +78,7 @@
 
     </div>
     <ParallaxSection image="/artherapi.png" title="ArtTherapie" subtitle="Un espace pour penser le travail autrement"
-        description="L’art-thérapie offre un espace sécurisé où chacun peut exprimer ses émotions et sa créativité à travers différentes formes artistiques : dessin, peinture, modelage ou collage. Cette approche permet de libérer les tensions, développer la confiance en soi, stimuler l’imagination et renforcer le bien-être mental et émotionnel. Elle favorise également l’écoute, la réflexion personnelle et la cohésion au sein des groupes, tout en respectant le rythme et les besoins de chaque participant." />
+        description="Artiste autodidacte, j’explore les liens entre art, approche thérapeutique, santé et culture à travers des pratiques expérimentales et des ateliers d’Art-Thérapie. Ces espaces sécurisés et bienveillants permettent à chacun d’exprimer ses émotions, de stimuler sa créativité et de restaurer l’estime de soi, tout en favorisant l’écoute, la réflexion personnelle et la cohésion des groupes." />
     <div class="flex justify-center w-full">
         <ButtonBaseButtonTlwd label="Plus d'informations ?" to="/contact" variant="primary" class=" my-6" />
     </div>
