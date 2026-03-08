@@ -45,7 +45,7 @@
               <img
                 :src="centralImageSrc"
                 :alt="centralImageAlt"
-                class="rounded-full shadow-2xl w-80 h-80 object-cover border-8 border-white"
+                class="rounded-full shadow-2xl w-80 h-80 object-cover border-8 border-accent"
               />
               <div class="absolute inset-0 rounded-full bg-white/20 blur-xl -z-10"></div>
             </div>
