@@ -262,14 +262,14 @@ select:focus {
 }
 
 .submit-btn {
-  background: rgb(255, 255, 255);
+  background: #B9156C;
   border: 1px solid rgba(0, 0, 0, 0.2);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
-  color: black;
+  color: white;
   cursor: pointer;
   transition: background 0.3s ease, transform 0.5s ease;
-
+  
   margin-top: 20px;
   display: block;
   margin-left: auto;
@@ -280,7 +280,7 @@ select:focus {
 }
 
 .submit-btn:hover {
-  background: #ffffff;
+  background: #1F7A8C;
   transform: scale(1.05);
 }
 
