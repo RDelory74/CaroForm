@@ -61,7 +61,9 @@
                         <p class="text-lg text-gray-600 leading-relaxed">
                             Parallèlement, je me suis engagée dans le champ de la formation et de la transmission.
                             J’interviens à l’École Nationale des Solidarités, de l’Encadrement et de l’Intervention
-                            Sociale (ENSEIS) depuis l’ouverture de la filière EJE en 2015.
+                            Sociale (ENSEIS) depuis l’ouverture de la filière EJE en 2015. J’accompagne des étudiants en
+                            travail social à élaborer leurs identités professionnelles, des pro à valider leurs
+                            compétences en VAE. Je suis également guidante mémoire et jury au DEEJE.
                         </p>
 
                         <p class="text-lg text-gray-600 leading-relaxed">
@@ -135,14 +137,14 @@
                                     développer une compréhension fine des enjeux institutionnels, du rôle des
                                     gestionnaires et de l’importance d’une dynamique collective soutenue par un projet
                                     pédagogique co-construit. </p>
-                                    <span><br></br></span>
+                                <span><br></br></span>
                                 <p class="text-gray-700">En tant que coordinatrice et responsable pédagogique de
                                     l’organisme de formation de l’ACEPP des 2 Savoie (Association des Collectifs Enfants
                                     Parents Professionnels) j’ai conçu et structuré une offre de formation à destination
                                     des professionnels de la petite enfance. J’y ai piloté l’ingénierie de formation en
                                     lien avec les besoins du territoire, animé un réseau de formateurs et développé des
                                     parcours pédagogiques adaptés aux réalités des acteurs locaux.</p>
-                                    <span><br></br></span>
+                                <span><br></br></span>
                                 <p class="text-gray-700">Aujourd’hui, j’accompagne équipes, gestionnaires et
                                     institutions à travers des formations sur mesure, des groupes d’analyse de la
                                     pratique, des accompagnements méthodologiques et du conseil stratégique. Je
