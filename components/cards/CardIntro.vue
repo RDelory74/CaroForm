@@ -40,13 +40,6 @@
           <img :src="image1" :alt="image1Alt"
             class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110" />
         </div>
-
-        <!-- Image 2 - Overlapping -->
-        <div
-          class="absolute bottom-0 right-0 w-1/2 aspect-square overflow-hidden bg-white/10 backdrop-blur-md shadow-xl translate-x-1/6 translate-y-1/6">
-          <img :src="image2" :alt="image2Alt"
-            class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110" />
-        </div>
       </div>
 
       <!-- Content Section -->

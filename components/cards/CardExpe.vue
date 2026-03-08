@@ -23,7 +23,7 @@
         </div>
   
         <!-- Footer -->
-        <div v-if="footer" class="mt-8 pt-8 border-t border-gray-200">
+        <div v-if="footer" class="my-4 lg:mt-8 pt-8 text-center border-t border-gray-200">
           <p v-for="(paragraph, idx) in footer" :key="idx" class="text-gray-700 leading-relaxed">
             {{ paragraph }}
           </p>
