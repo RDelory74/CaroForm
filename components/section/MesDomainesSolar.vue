@@ -117,7 +117,7 @@
         <div
           ref="buttonRef"
           :class="[
-            'text-center mt-4 p-4 transition-all duration-1000 ease-out delay-700',
+            'text-center mt-4 p-4 transition-all duration-1000 ease-out delay-600',
             visible.button ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
           ]"
         >

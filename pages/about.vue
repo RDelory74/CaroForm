@@ -38,17 +38,20 @@
                         </p>
 
                         <p class="text-lg text-gray-600 leading-relaxed">
-                            Mon approche est centrée sur l’enfant, sa famille et les relations qui se tissent au
-                            quotidien, dans une dynamique de co-construction avec les équipes et les institutions.
+                            Mon travail s’inscrit dans une démarche réflexive autour des pratiques pédagogiques et de
+                            leurs enjeux. J’ouvre des espaces de réflexion qui permettent d’interroger le sens des
+                            pratiques professionnelles, d’analyser les situations du quotidien et de mieux comprendre
+                            les transformations contemporaines de la famille et leurs effets sur les relations
+                            éducatives.
                         </p>
 
                         <p class="text-lg text-gray-600 leading-relaxed">
-                            Titulaire d’une Licence en Sciences Humaines et Sociales et du Diplôme d’État d’Éducatrice
-                            de Jeunes Enfants (EJE), mon parcours s’est construit à la croisée des sciences humaines, de
-                            la pédagogie, de l’art et de la culture. Cette double formation universitaire et
-                            professionnelle m’a permis de développer une approche globale, sensible et structurée des
-                            relations humaines, attentive aux dynamiques individuelles, collectives et
-                            institutionnelles.
+                            Titulaire d’une licence en Sciences Humaines et Sociales et du Diplôme d’État d’Éducatrice
+                            de Jeunes Enfants, mon parcours s’est construit à la croisée de la recherche, de la
+                            pédagogie, de l’art et de la culture. Cette double formation universitaire et
+                            professionnelle a nourri une approche globale et sensible des relations humaines, attentive
+                            aux dynamiques relationnelles, institutionnelles et systémiques qui traversent les lieux
+                            d’accueil du jeune enfant.
                         </p>
 
                         <!-- Image après quatrième paragraphe -->
@@ -58,25 +61,22 @@
                         </div>
 
                         <p class="text-lg text-gray-600 leading-relaxed">
-                            Après plusieurs années d’expérience en accueil collectif et individuel (multi-accueil en
-                            France et en Suisse, relais petite enfance) et en coordination pédagogique de structures,
-                            j’ai acquis une vision transversale des enjeux éducatifs, organisationnels et humains du
-                            secteur.
+                            Mon expérience professionnelle s’est construite dans différents contextes d’accueil —
+                            structures collectives en France et en Suisse, relais petite enfance, coordination
+                            pédagogique de structures — qui m’ont permis de développer une compréhension transversale
+                            des enjeux éducatifs, organisationnels et humains du secteur.
                         </p>
 
                         <p class="text-lg text-gray-600 leading-relaxed">
-                            Parallèlement, j’ai investi le champ de la formation et de la transmission, en intervenant à
-                            l’École nationale des solidarités, de l’encadrement et de l’intervention sociale (ENSEIS)
-                            pour la filière EJE. En tant que coordinatrice pédagogique et responsable d’un organisme de
-                            formation, j’ai conçu des parcours sur mesure, animé des formations et journées
-                            pédagogiques, et accompagné les équipes dans le développement de pratiques cohérentes et de
-                            projets innovants.
+                            Parallèlement, je me suis engagée dans le champ de la formation et de la transmission.
+                            J’interviens à l’École Nationale des Solidarités, de l’Encadrement et de l’Intervention
+                            Sociale (ENSEIS) depuis l’ouverture de la filière EJE en 2015.
                         </p>
 
                         <p class="text-lg text-gray-600 leading-relaxed">
                             Autrice d’articles de réflexion pour la revue nationale
                             <cite class="font-semibold text-gray-900">« Les métiers de la petite enfance »</cite>
-                            (Elsevier Masson), j’inscris mon accompagnement dans une démarche analytique mêlant
+                            (Elsevier Masson), j’inscris mon travail dans une démarche analytique qui articule
                             recherche, observation de terrain et pratiques professionnelles.
                         </p>
                         <span><br></span>
@@ -136,26 +136,27 @@
 
                             <div class="border-l-4 border-accent pl-6">
                                 <h4 class="text-xl font-bold text-gray-900 mb-2 flex items-center gap-2">
-                                    🏢 Coordination pédagogique et responsable d'organisme de formation
+                                    🏢 Coordination pédagogique et ingénierie de formation
                                 </h4>
-                                <p class="text-gray-700">Gestion et coordination d'une petite crèche et d'une
-                                    micro-crèche associative, articulant cadre organisationnel, suivi des équipes et
-                                    mise en œuvre du projet d'établissement. Cette expérience m'a permis de comprendre
-                                    les défis du rôle de gestionnaire, l'importance d'un projet global structuré, d'un
-                                    projet pédagogique co-construit en équipe et la nécessité d'un accompagnement
-                                    extérieur pour soutenir la dynamique du projet. Coordinatrice et responsable
-                                    pédagogique
-                                    de l’organisme de formation de l’ACEPP des 2 Savoie (Association des Collectifs
-                                    Enfants
-                                    Parents Professionnels), j’ai développé et structuré l’offre de formation à
-                                    destination
-                                    des professionnels de la petite enfance. J’ai coordonné un réseau de formateurs,
-                                    conçu des
-                                    parcours pédagogiques et piloté l’ingénierie de formation en lien avec les besoins
-                                    du
-                                    territoire. Cette expérience m’a permis d’accompagner les équipes dans le
-                                    développement de
-                                    leurs compétences et l’évolution de leurs pratiques professionnelles. </p>
+                                <p class="text-gray-700">Au cours de mon parcours, j’ai assuré la coordination
+                                    pédagogique de structures d’accueil et accompagné les équipes dans la mise en œuvre
+                                    et l’évolution de leurs projets d’établissement. Cette expérience m’a permis de
+                                    développer une compréhension fine des enjeux institutionnels, du rôle des
+                                    gestionnaires et de l’importance d’une dynamique collective soutenue par un projet
+                                    pédagogique co-construit. </p>
+                                    <span><br></br></span>
+                                <p class="text-gray-700">En tant que coordinatrice et responsable pédagogique de
+                                    l’organisme de formation de l’ACEPP des 2 Savoie (Association des Collectifs Enfants
+                                    Parents Professionnels) j’ai conçu et structuré une offre de formation à destination
+                                    des professionnels de la petite enfance. J’y ai piloté l’ingénierie de formation en
+                                    lien avec les besoins du territoire, animé un réseau de formateurs et développé des
+                                    parcours pédagogiques adaptés aux réalités des acteurs locaux.</p>
+                                    <span><br></br></span>
+                                <p class="text-gray-700">Aujourd’hui, j’accompagne équipes, gestionnaires et
+                                    institutions à travers des formations sur mesure, des groupes d’analyse de la
+                                    pratique, des accompagnements méthodologiques et du conseil stratégique. Je
+                                    développe également des projets éducatifs, artistiques et culturels qui soutiennent
+                                    la qualité de l’accueil et le lien aux familles.</p>
                             </div>
                         </div>
 
