@@ -74,12 +74,23 @@
                         </p>
 
                         <p class="text-lg text-gray-600 leading-relaxed">
-                            Autrice d’articles de réflexion pour la revue nationale 
+                            Autrice d’articles de réflexion pour la revue nationale
                             <cite class="font-semibold text-gray-900">« Les métiers de la petite enfance »</cite>
                             (Elsevier Masson), j’inscris mon accompagnement dans une démarche analytique mêlant
                             recherche, observation de terrain et pratiques professionnelles.
                         </p>
-
+                        <span><br></span>
+                        <a href="https://www.em-consulte.com/article/1079380/article/l-approche-ethnologique-dans-la-pratique-des-metie"
+                            target="_blank" rel="noopener noreferrer"
+                            class="text-primary hover:text-accent font-semibold">
+                            Article: « L’approche ethnologique dans la pratique des métiers de la petite enfance »
+                        </a>
+                        <span><br></span>
+                        <a href="https://www.em-consulte.com/article/1147555/article/de-la-liberte-de-mouvement-a-la-libre-circulation"
+                            target="_blank" rel="noopener noreferrer"
+                            class="text-primary hover:text-accent font-semibold">
+                            Article: « De la liberté de mouvement à la libre circulation »
+                        </a>
                         <p class="text-lg text-gray-600 leading-relaxed">
                             Aujourd’hui, je mets mon expertise au service des équipes, gestionnaires et institutions à
                             travers formations sur mesure, groupes d’analyse de la pratique, accompagnement
@@ -132,7 +143,19 @@
                                     mise en œuvre du projet d'établissement. Cette expérience m'a permis de comprendre
                                     les défis du rôle de gestionnaire, l'importance d'un projet global structuré, d'un
                                     projet pédagogique co-construit en équipe et la nécessité d'un accompagnement
-                                    extérieur pour soutenir la dynamique du projet.</p>
+                                    extérieur pour soutenir la dynamique du projet. Coordinatrice et responsable
+                                    pédagogique
+                                    de l’organisme de formation de l’ACEPP des 2 Savoie (Association des Collectifs
+                                    Enfants
+                                    Parents Professionnels), j’ai développé et structuré l’offre de formation à
+                                    destination
+                                    des professionnels de la petite enfance. J’ai coordonné un réseau de formateurs,
+                                    conçu des
+                                    parcours pédagogiques et piloté l’ingénierie de formation en lien avec les besoins
+                                    du
+                                    territoire. Cette expérience m’a permis d’accompagner les équipes dans le
+                                    développement de
+                                    leurs compétences et l’évolution de leurs pratiques professionnelles. </p>
                             </div>
                         </div>
 
