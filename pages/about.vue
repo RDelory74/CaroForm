@@ -30,16 +30,7 @@
                     <div class="text-left max-w-4xl mx-auto space-y-6">
 
                         <p class="text-lg text-gray-600 leading-relaxed">
-                            J’ouvre des espaces de réflexion permettant de questionner le sens des
-                            pratiques, de mieux comprendre les évolutions de la famille contemporaine et leurs effets
-                            sur les relations éducatives, et de soutenir une <strong
-                                class="text-gray-900 font-semibold">qualité d’accueil consciente, éthique et
-                                engagée</strong>.
-                        </p>
-
-                        <p class="text-lg text-gray-600 leading-relaxed">
-                            Mon travail s’inscrit dans une démarche réflexive autour des pratiques pédagogiques et de
-                            leurs enjeux. J’ouvre des espaces de réflexion qui permettent d’interroger le sens des
+                            J’ouvre des espaces de réflexion qui permettent d’interroger le sens des
                             pratiques professionnelles, d’analyser les situations du quotidien et de mieux comprendre
                             les transformations contemporaines de la famille et leurs effets sur les relations
                             éducatives.
