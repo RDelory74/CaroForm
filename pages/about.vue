@@ -82,13 +82,13 @@
                         <span><br></span>
                         <a href="https://www.em-consulte.com/article/1079380/article/l-approche-ethnologique-dans-la-pratique-des-metie"
                             target="_blank" rel="noopener noreferrer"
-                            class="text-primary hover:text-accent font-semibold">
+                            class="text-primary hover:text-accent visited:text-secondary transition-colors duration-200 font-semibold">
                             Article: « L’approche ethnologique dans la pratique des métiers de la petite enfance »
                         </a>
                         <span><br></span>
                         <a href="https://www.em-consulte.com/article/1147555/article/de-la-liberte-de-mouvement-a-la-libre-circulation"
                             target="_blank" rel="noopener noreferrer"
-                            class="text-primary hover:text-accent font-semibold">
+                            class="text-primary hover:text-accent visited:text-secondary transition-colors duration-200 font-semibold">
                             Article: « De la liberté de mouvement à la libre circulation »
                         </a>
                         <p class="text-lg text-gray-600 leading-relaxed">
