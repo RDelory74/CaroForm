@@ -66,16 +66,16 @@
         @click.self="isModalOpen = false"
       >
         <div
-          class="bg-[#223B8180] p-6 rounded-lg flex flex-col items-center space-y-6 w-4/5 max-w-sm"
+          class="bg-secondary p-6 rounded-lg flex flex-col items-center space-y-6 w-4/5 max-w-sm"
         >
           <button
             @click="isModalOpen = false"
-            class="self-end mb-4 text-2xl focus:outline-none"
+            class="self-end  text-2xl focus:outline-none"
           >
             &times;
           </button>
 
-          <NuxtLink to="/" class="mb-4">
+          <NuxtLink to="/">
             <img src="@/public/logoCaro.png" alt="Logo" class="h-16 mx-auto rounded-full" />
           </NuxtLink>
 
