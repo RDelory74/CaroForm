@@ -77,8 +77,11 @@
         </div>
 
     </div>
-    <ParallaxSection image="/artherapi.png" title="ArtTherapie" subtitle="Créer, ressentir, se relier" 
-        description="Artiste autodidacte, j’explore les liens entre art, approche thérapeutique, santé et culture à travers des pratiques expérimentales et des ateliers d’Art-Thérapie. Ces espaces sécurisés et bienveillants permettent à chacun d’exprimer ses émotions, de stimuler sa créativité et de restaurer l’estime de soi, tout en favorisant l’écoute, la réflexion personnelle et la cohésion des groupes." />
+<!-- 
+<ParallaxSection image="/artherapi.png" title="ArtTherapie" subtitle="Créer, ressentir, se relier" 
+    description="Artiste autodidacte, j’explore les liens entre art, approche thérapeutique, santé et culture à travers des pratiques expérimentales et des ateliers d’Art-Thérapie. Ces espaces sécurisés et bienveillants permettent à chacun d’exprimer ses émotions, de stimuler sa créativité et de restaurer l’estime de soi, tout en favorisant l’écoute, la réflexion personnelle et la cohésion des groupes." 
+    />
+-->
     <div class="flex justify-center w-full">
         <ButtonBaseButtonTlwd label="Plus d'informations ?" to="/contact" variant="primary" class=" my-6" />
     </div>
